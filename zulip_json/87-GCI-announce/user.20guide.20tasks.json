@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Hi guys! We just uploaded a bunch of user guide tasks for this contest :) Just FYI!</p>",
+        "id": 393906,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1513567594
+    },
+    {
+        "content": "<p>FYI, some markdown titles are broken (e.g. Write a user guide for the * Configure authentication methods * feature.)</p>",
+        "id": 393907,
+        "sender_full_name": "Cynthia Lin",
+        "timestamp": 1513567831
+    },
+    {
+        "content": "<p>Hmm, titles don't support Markdown. I removed them.</p>",
+        "id": 393908,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1513568014
+    }
+]

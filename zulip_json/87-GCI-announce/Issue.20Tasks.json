@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"*\" data-user-id=\"*\">@all</span> In case you don't know you are free to work on open issues in any of the Zulip repos. If there is no task created already for that issue we will create one for you once your PR gets merged :)</p>",
+        "id": 382448,
+        "sender_full_name": "Vishnu KS",
+        "timestamp": 1513093814
+    },
+    {
+        "content": "<p>As a quick tip, if you're going to start looking through the zulip repos:</p>\n<ul>\n<li>Read <a href=\"http://zulip.readthedocs.io/en/latest/overview/contributing.html\" target=\"_blank\" title=\"http://zulip.readthedocs.io/en/latest/overview/contributing.html\">zulip.readthedocs.io/en/latest/overview/contributing.html</a></li>\n<li>Only claim 1 issue at a time</li>\n<li>Only claim issues that have the <code>good first issue</code> or <code>help wanted</code> labels; if it doesn't have one of those labels it means the issue is waiting on something else and is not currently actionable.</li>\n</ul>",
+        "id": 382695,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1513101779
+    },
+    {
+        "content": "<p>Actually, I just realized directly claiming tasks is against the GCI rules, since it would allow students to claim more than one task at a time (one in the GCI app, and one in the repo). </p>\n<p>If there is an issue that you want to work on, and that we haven't already opened as a GCI task, ask a mentor to create it as a task. (This process might take a day or two.) Many of the appropriately-sized issues should already be opened as GCI tasks though, and we add more as we see them, so don't feel a need to look through the issue lists if you're finding good tasks within the GCI app.</p>",
+        "id": 382926,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1513107848
+    }
+]

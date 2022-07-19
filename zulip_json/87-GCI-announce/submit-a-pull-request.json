@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>We just added an automated grader tool for the submit-a-pull-request task, that you can use to check your work before submitting it for a mentor to review.</p>",
+        "id": 345323,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1511902178
+    },
+    {
+        "content": "<p>Since it's new, we appreciate any reports of confusing error messages, bugs, etc. :)</p>",
+        "id": 345325,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1511902197
+    },
+    {
+        "content": "<p>(Actually, we appreciate bug reports in general; I suppose I should have said that you should not be surprised if you find bugs)</p>",
+        "id": 345327,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1511902231
+    }
+]

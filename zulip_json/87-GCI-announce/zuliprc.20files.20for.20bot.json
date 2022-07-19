@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>If you have worked on the interactive bots tasks, you have become familiar with the concept of a zuliprc configuration file.  (If you haven't seen this, you can ignore the this message.)</p>\n<p>Our UI now supports the ability to download zuliprc files for your bots.  You can go the Settings page to see this.  Once you download the file, you may need to copy or move the file to its expected place, depending on your preferences or depending on the task.</p>",
+        "id": 86530,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1481327472
+    },
+    {
+        "content": "<p>Also make sure you rename it to <code>.zuliprc</code> instead of just <code>zuliprc</code> </p>",
+        "id": 86969,
+        "sender_full_name": "Tommy Ip",
+        "timestamp": 1481363171
+    }
+]

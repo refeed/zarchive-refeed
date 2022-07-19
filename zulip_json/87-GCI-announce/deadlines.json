@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Just a note: GCI ends on Monday (1 week from now), but the deadline to claim a new task is Friday 5pm UTC: <a href=\"https://developers.google.com/open-source/gci/timeline\" target=\"_blank\" title=\"https://developers.google.com/open-source/gci/timeline\">https://developers.google.com/open-source/gci/timeline</a> <br>\nSo if you want to work on a task over the weekend (e.g. a github issue) make sure we create the task for you before Friday!</p>",
+        "id": 121558,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1484025695
+    },
+    {
+        "content": "<p><img alt=\":slightly_frowning_face:\" class=\"emoji\" src=\"/static/generated/emoji/images/emoji/slightly_frowning_face.png\" title=\":slightly_frowning_face:\"> had so much fun!</p>",
+        "id": 121560,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1484025863
+    },
+    {
+        "content": "<p>No worries! I should have specified, GCI ends on Monday, but Zulip still has 518 open issues to resolve between now and November :).</p>",
+        "id": 121561,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1484026167
+    },
+    {
+        "content": "<p>Ahahaha. yep :)</p>",
+        "id": 121563,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1484026477
+    },
+    {
+        "content": "<p>Who should we contact with in case we want a task created? </p>",
+        "id": 121567,
+        "sender_full_name": "Yago González",
+        "timestamp": 1484027142
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"showell30@yahoo.com\">@Steve Howell</span> and <span class=\"user-mention\" data-user-email=\"alicja.raszkowska@gmail.com\">@Alicja Raszkowska</span> </p>",
+        "id": 121568,
+        "sender_full_name": "Umair Khan",
+        "timestamp": 1484027197
+    },
+    {
+        "content": "<p>Sending them a PM is okay in this case? I don't want to bother anyone </p>",
+        "id": 121569,
+        "sender_full_name": "Yago González",
+        "timestamp": 1484027279
+    },
+    {
+        "content": "<p>Hmm, you can try but expect a delay in the reply; it will be pretty late in their time zones.</p>",
+        "id": 121570,
+        "sender_full_name": "Umair Khan",
+        "timestamp": 1484027386
+    },
+    {
+        "content": "<p>you can ask any mentor to create a task, but they'll have to wait for publishing if they don't happen to have admin privileges - I don't think Steve has them, so please don't ping him :)</p>",
+        "id": 121682,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1484042429
+    },
+    {
+        "content": "<p>Correct, Alicja, thanks for the clarification.  I don't have admin privileges.</p>",
+        "id": 121835,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1484056006
+    }
+]

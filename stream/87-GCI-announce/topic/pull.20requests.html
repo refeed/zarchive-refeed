@@ -1,0 +1,39 @@
+<html>
+<head><meta charset="utf-8"><title>pull requests · GCI announce · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/index.html">GCI announce</a></h2>
+<h3>Topic: <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/pull.20requests.html">pull requests</a></h3>
+
+<hr>
+
+<base href="chat.zulip.org">
+
+<head><link href="https://refeed.github.io/zarchive-refeed/style.css" rel="stylesheet"></head>
+
+<a name="79487"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/pull%20requests/near/79487" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Abbott <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/pull.20requests.html#79487">(Dec 05 2016 at 21:53)</a>:</h4>
+<p>I've noticed that frequently students are closing pull requests and creating new ones when they want to push an updated version of there changes.  With Git and GitHub, you should essentially never need to do this.  Further, doing so makes more work for the maintainers and slows the review of your work, since we then need to look at the old PR to see what the comments you were attempting to resolve in making revisions to your pull request.  Instead, you should always being using a git force-push to update the  remote branch the PR was based off of.  If you decide to restart a local branch as part of making your revisions, that's fine, you just need to use the more complicated <code>git push origin +localbranchname:remotebranchname</code> to push your changes.  The maintainers of any open source project you contribute to will appreciate it!</p>
+
+
+
+<a name="79509"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/pull%20requests/near/79509" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/pull.20requests.html#79509">(Dec 05 2016 at 21:57)</a>:</h4>
+<p>I've been suggesting this, which I think is consistent with our docs:</p>
+<div class="codehilite"><pre><span></span>git push origin +my-feature-branch-name
+</pre></div>
+
+
+
+<a name="79512"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/pull%20requests/near/79512" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Abbott <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/pull.20requests.html#79512">(Dec 05 2016 at 21:58)</a>:</h4>
+<p>yes, that doesn't work if they created a new feature branch name locally for their revisions, however</p>
+
+
+
+<a name="79513"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/pull%20requests/near/79513" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Abbott <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/pull.20requests.html#79513">(Dec 05 2016 at 21:58)</a>:</h4>
+<p>So the more advanced syntax can be necessary in some cases</p>
+
+
+
+<hr><p>Last updated: Jul 19 2022 at 08:22 UTC</p>
+</html>

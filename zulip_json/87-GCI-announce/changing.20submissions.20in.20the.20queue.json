@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>To clarify our workflow a bit - we often check submissions locally on feature branches. <br>\n<br>\nIf you want to change an already submitted task, please ask on chat first and make sure a mentor is not checking it at the moment - it might interfere with the workflow, especially if your submission requires a certain setup to be properly checked. <br>\n<br>\nAlso, it will restart Travis and part of checking the submission is using Travis to check if the tests pass.<br>\n<br>\nI've had to restart reviewing a few submissions due to changes while in the queue and it slows down the review process.</p>",
+        "id": 112381,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1483365136
+    },
+    {
+        "content": "<p>tl;dr - you should always ask before changing a submission that's in the queue</p>",
+        "id": 112383,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1483365188
+    }
+]

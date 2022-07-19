@@ -1,0 +1,235 @@
+{
+    "streams": {
+        "GCI announce": {
+            "id": 87,
+            "latest_id": 641004,
+            "topic_data": {
+                "(no topic)": {
+                    "latest_date": 1512290876,
+                    "size": 2
+                },
+                "CLA bot": {
+                    "latest_date": 1480461555,
+                    "size": 1
+                },
+                "Digital Ocean outage": {
+                    "latest_date": 1480638534,
+                    "size": 4
+                },
+                "End of GCI": {
+                    "latest_date": 1485261935,
+                    "size": 30
+                },
+                "Feature requests": {
+                    "latest_date": 1484293242,
+                    "size": 25
+                },
+                "GCI 2018 announced": {
+                    "latest_date": 1535970870,
+                    "size": 10
+                },
+                "GCI rules": {
+                    "latest_date": 1482672992,
+                    "size": 2
+                },
+                "GitHub Guide": {
+                    "latest_date": 1483057209,
+                    "size": 1
+                },
+                "I'm back": {
+                    "latest_date": 1484975882,
+                    "size": 1
+                },
+                "Introductions": {
+                    "latest_date": 1512448903,
+                    "size": 114
+                },
+                "Issue Tasks": {
+                    "latest_date": 1513107848,
+                    "size": 3
+                },
+                "Join us at PyCon in May!": {
+                    "latest_date": 1481323139,
+                    "size": 3
+                },
+                "Travis issues": {
+                    "latest_date": 1481558147,
+                    "size": 1
+                },
+                "User guide documentation loophole": {
+                    "latest_date": 1482511526,
+                    "size": 6
+                },
+                "VM cleanup": {
+                    "latest_date": 1482526483,
+                    "size": 1
+                },
+                "Winners announced": {
+                    "latest_date": 1485796074,
+                    "size": 1
+                },
+                "beginner tasks": {
+                    "latest_date": 1480673210,
+                    "size": 4
+                },
+                "bots docs": {
+                    "latest_date": 1481756888,
+                    "size": 1
+                },
+                "changing submissions in the queue": {
+                    "latest_date": 1483365188,
+                    "size": 2
+                },
+                "contrib_bot Update": {
+                    "latest_date": 1482938538,
+                    "size": 22
+                },
+                "deadline": {
+                    "latest_date": 1516010621,
+                    "size": 1
+                },
+                "deadlines": {
+                    "latest_date": 1484056006,
+                    "size": 10
+                },
+                "deleting droplets": {
+                    "latest_date": 1516990631,
+                    "size": 5
+                },
+                "droplets": {
+                    "latest_date": 1484787654,
+                    "size": 12
+                },
+                "file system bot": {
+                    "latest_date": 1484183045,
+                    "size": 1
+                },
+                "finding your commits": {
+                    "latest_date": 1482420848,
+                    "size": 1
+                },
+                "fix for pgroonga provision errors": {
+                    "latest_date": 1481448360,
+                    "size": 5
+                },
+                "git tutorial": {
+                    "latest_date": 1481827880,
+                    "size": 1
+                },
+                "github tasks": {
+                    "latest_date": 1483738406,
+                    "size": 2
+                },
+                "improved dev docs": {
+                    "latest_date": 1480463287,
+                    "size": 2
+                },
+                "improving the GCI experience": {
+                    "latest_date": 1485261887,
+                    "size": 12
+                },
+                "last few days": {
+                    "latest_date": 1484124660,
+                    "size": 7
+                },
+                "learn about sales task": {
+                    "latest_date": 1512629202,
+                    "size": 2
+                },
+                "legacy urls": {
+                    "latest_date": 1482360675,
+                    "size": 1
+                },
+                "live coding": {
+                    "latest_date": 1481568345,
+                    "size": 1
+                },
+                "mentor coverage": {
+                    "latest_date": 1482938395,
+                    "size": 7
+                },
+                "mentors": {
+                    "latest_date": 1515796188,
+                    "size": 285
+                },
+                "more tasks!": {
+                    "latest_date": 1482263722,
+                    "size": 1
+                },
+                "mypy": {
+                    "latest_date": 1480818665,
+                    "size": 3
+                },
+                "new tasks": {
+                    "latest_date": 1513349792,
+                    "size": 93
+                },
+                "new tasks - interactive bots": {
+                    "latest_date": 1481107838,
+                    "size": 11
+                },
+                "peer reviews": {
+                    "latest_date": 1482182648,
+                    "size": 1
+                },
+                "pull requests": {
+                    "latest_date": 1480975115,
+                    "size": 4
+                },
+                "reading list": {
+                    "latest_date": 1482603920,
+                    "size": 1
+                },
+                "submit-a-pull-request": {
+                    "latest_date": 1511902231,
+                    "size": 3
+                },
+                "tic tac toe": {
+                    "latest_date": 1483735873,
+                    "size": 1
+                },
+                "tools/diagnose": {
+                    "latest_date": 1483549849,
+                    "size": 35
+                },
+                "trailing whitespace": {
+                    "latest_date": 1482173522,
+                    "size": 13
+                },
+                "translations": {
+                    "latest_date": 1483650527,
+                    "size": 1
+                },
+                "user docs": {
+                    "latest_date": 1483656956,
+                    "size": 9
+                },
+                "user guide tasks": {
+                    "latest_date": 1513568014,
+                    "size": 3
+                },
+                "user guides": {
+                    "latest_date": 1482363689,
+                    "size": 3
+                },
+                "webhook tasks": {
+                    "latest_date": 1482966704,
+                    "size": 2
+                },
+                "welcome": {
+                    "latest_date": 1480319828,
+                    "size": 2
+                },
+                "winners": {
+                    "latest_date": 1517419180,
+                    "size": 32
+                },
+                "zuliprc files for bot": {
+                    "latest_date": 1481363171,
+                    "size": 2
+                }
+            }
+        }
+    },
+    "time": 1658218960.2518008
+}

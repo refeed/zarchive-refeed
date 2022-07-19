@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Hey GCI students! Recently <span class=\"user-mention\" data-user-email=\"rishig@zulipchat.com\">@Rishi Gupta</span> posted some new user guide documentation tasks to complete, but some of these features have been already previously documented. Some examples of this include the <a href=\"https://codein.withgoogle.com/tasks/5716313357942784\" target=\"_blank\" title=\"https://codein.withgoogle.com/tasks/5716313357942784\">Deactivate/reactivate a user</a>, <a href=\"https://codein.withgoogle.com/tasks/4565448685256704/\" target=\"_blank\" title=\"https://codein.withgoogle.com/tasks/4565448685256704/\">Change a user's name</a>, and the <a href=\"https://codein.withgoogle.com/tasks/4795116021612544\" target=\"_blank\" title=\"https://codein.withgoogle.com/tasks/4795116021612544\">Change default language</a> feature tasks, among at least 3 others. To complete these tasks, all you need to do is to add a link to the <code>templates/zerver/help/index.md</code> file, and then you're done. If you're looking for easy task points, I <strong>strongly</strong> encourage you to claim these tasks before they're completed. Good luck!</p>",
+        "id": 103264,
+        "sender_full_name": "Cynthia Lin",
+        "timestamp": 1482448574
+    },
+    {
+        "content": "<p>Just to note, they are indeed good tasks, but they are somewhat different from the ones already done, in that they are from the Administration interface rather than the Settings interface. I.e. admins can deactivate/reactivate any user, not just themselves (and similarly, admins can change any user's name, and admins can also set the initial default language for everybody).</p>",
+        "id": 103266,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1482448844
+    },
+    {
+        "content": "<p>Thanks for pointing it out though; definitely should have made it clearer!</p>",
+        "id": 103267,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1482448901
+    },
+    {
+        "content": "<p>Edit: there are indeed some duplicates -- happy hunting! :)</p>",
+        "id": 103272,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1482450338
+    },
+    {
+        "content": "<p>Thanks, <span class=\"user-mention\" data-user-email=\"cynthialin1004@gmail.com\">@Cynthia Lin</span>!  I also strongly encourage folks to claim these fairly easy tasks.  You want to be thoughtful in your approach--definitely read the existing page to make sure it makes sense for both links--but generally you'll find these tasks to be quick wins.  Good luck!</p>",
+        "id": 104167,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1482511256
+    },
+    {
+        "content": "<p>now I got it - I thought there was something wrong with my interpretation if two people are saying the same thing ;) thanks!</p>",
+        "id": 104169,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1482511526
+    }
+]

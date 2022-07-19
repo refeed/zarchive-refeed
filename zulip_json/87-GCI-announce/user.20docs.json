@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>There's now a style guide for user documentation at <a href=\"http://zulip.readthedocs.io/en/latest/README.html#style-guide\" target=\"_blank\" title=\"http://zulip.readthedocs.io/en/latest/README.html#style-guide\">http://zulip.readthedocs.io/en/latest/README.html#style-guide</a>; please consult it when writing new user documentation :)</p>",
+        "id": 113513,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1483421669
+    },
+    {
+        "content": "<p>Posted 18 new tasks to polish our current docs, including bringing them into alignment with the style guide. (Prereq for these is native/near-native proficiency in English, since most of the work is improving the prose.)</p>",
+        "id": 114628,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1483495804
+    },
+    {
+        "content": "<p>If you're looking to claim one of these type of tasks, please check for <a href=\"https://github.com/zulip/zulip/issues/3070\" target=\"_blank\" title=\"https://github.com/zulip/zulip/issues/3070\">unnecessary images</a> and whether a macro could be integrated in. Checking to see whether some steps could be replaced with tips/warnings would be nice too. It'd really help, thanks in advance. :)</p>",
+        "id": 114655,
+        "sender_full_name": "Cynthia Lin",
+        "timestamp": 1483498845
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"cynthialin1004@gmail.com\">@Cynthia Lin</span> maybe it's worth putting that reminder in the task descriptions?  </p>",
+        "id": 114660,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1483499073
+    },
+    {
+        "content": "<p>I can do that if you'd like, I'll send in a PR to <code>zulip-gci</code></p>",
+        "id": 114661,
+        "sender_full_name": "Cynthia Lin",
+        "timestamp": 1483499099
+    },
+    {
+        "content": "<p>awesome!</p>",
+        "id": 114663,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1483499167
+    },
+    {
+        "content": "<p>Ping me when the PR is written (I don't get email notifications for that repo to keep my inbox sane)</p>",
+        "id": 114664,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1483499178
+    },
+    {
+        "content": "<p>I just adding enforcement banning too-long lines from user documentation</p>",
+        "id": 116944,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1483656937
+    },
+    {
+        "content": "<p>Ideally, everything should be under 80 characters, though we only enforce in the linter at-most-120-characters right now</p>",
+        "id": 116945,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1483656956
+    }
+]

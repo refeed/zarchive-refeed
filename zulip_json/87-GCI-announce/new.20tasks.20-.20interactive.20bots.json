@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p>we have released a new group of tasks for interactive bots :)</p>",
+        "id": 80613,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1481030317
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"alicja.raszkowska@gmail.com\">@Alicja Raszkowska</span> Interesting tasks, but where is the guide for task type A, B, and C ?</p>",
+        "id": 80748,
+        "sender_full_name": "Rafid Aslam",
+        "timestamp": 1481035172
+    },
+    {
+        "content": "<p>good catch! here's the direct link, I'm updating the tasks now - <a href=\"https://github.com/zulip/zulip-gci/blob/master/tasks/interactive-bots.md\" target=\"_blank\" title=\"https://github.com/zulip/zulip-gci/blob/master/tasks/interactive-bots.md\">https://github.com/zulip/zulip-gci/blob/master/tasks/interactive-bots.md</a></p>",
+        "id": 80750,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1481035273
+    },
+    {
+        "content": "<p>fixed, thanks <span class=\"user-mention\" data-user-email=\"rafidteam@gmail.com\">@Rafid Aslam</span>!</p>",
+        "id": 80786,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1481036112
+    },
+    {
+        "content": "<p>sure</p>",
+        "id": 80789,
+        "sender_full_name": "Rafid Aslam",
+        "timestamp": 1481036357
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"alicja.raszkowska@gmail.com\">@Alicja Raszkowska</span> could I ask? is it mandatory to create <code>notes.md</code> for task type A ?</p>",
+        "id": 82430,
+        "sender_full_name": "Rafid Aslam",
+        "timestamp": 1481107573
+    },
+    {
+        "content": "<p>since we want to improve the interactive bots, notes with suggestions, ideas or pointing out any problems are beneficial</p>",
+        "id": 82431,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1481107634
+    },
+    {
+        "content": "<p>if the process didn't cause any problems, could you write that in notes?</p>",
+        "id": 82432,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1481107668
+    },
+    {
+        "content": "<p>positive feedback is good too :)</p>",
+        "id": 82433,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1481107680
+    },
+    {
+        "content": "<p>thank you for asking!</p>",
+        "id": 82434,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1481107745
+    },
+    {
+        "content": "<p>okay, thanks for the answer <img alt=\":+1:\" class=\"emoji\" src=\"/static/third/gemoji/images/emoji/+1.png\" title=\":+1:\"></p>",
+        "id": 82435,
+        "sender_full_name": "Rafid Aslam",
+        "timestamp": 1481107838
+    }
+]

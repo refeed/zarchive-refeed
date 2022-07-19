@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>I just added to the user guides Markdown implementation support for marking off warnings/tips specially (tip doesn't have CSS yet, but will soon once <span class=\"user-mention\" data-user-email=\"brock@zulipchat.com\">@Brock Whittaker</span> does it): <a href=\"http://zulip.readthedocs.io/en/latest/README.html#supported-features\" target=\"_blank\" title=\"http://zulip.readthedocs.io/en/latest/README.html#supported-features\">http://zulip.readthedocs.io/en/latest/README.html#supported-features</a></p>",
+        "id": 100890,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1482347127
+    },
+    {
+        "content": "<p>You can see an example of this at the top of the /help/ index page</p>",
+        "id": 100891,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1482347147
+    },
+    {
+        "content": "<p>Tip has CSS now</p>",
+        "id": 101607,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1482363689
+    }
+]

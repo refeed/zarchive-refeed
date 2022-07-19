@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>We published a new doc on improving the GCI experience yesterday - it would be great if everyone read it!<br>\n<a href=\"https://github.com/zulip/zulip-gci/blob/master/docs/improving-gci-experience.md\" target=\"_blank\" title=\"https://github.com/zulip/zulip-gci/blob/master/docs/improving-gci-experience.md\">https://github.com/zulip/zulip-gci/blob/master/docs/improving-gci-experience.md</a><br>\n<br>\nThis is up for review, so feel free to post any comments and suggest changes :)</p>",
+        "id": 116798,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1483651207
+    },
+    {
+        "content": "<p>Great doc, really thorough. I might have missed it, but wouldn't the different time zones be worth mentioning e.g. at \"all of the mentors are reading through the feed as quickly as they can, while helping people.\" or at \"Why is it taking so long for the mentors to check my task?\"</p>",
+        "id": 116814,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1483651947
+    },
+    {
+        "content": "<p>what do you mean by mentioning different time zones? </p>",
+        "id": 116825,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1483652118
+    },
+    {
+        "content": "<p>I wonder how we can make it more explicit</p>",
+        "id": 116827,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1483652134
+    },
+    {
+        "content": "<p>other than \"Mentors are working shifts across multiple timezones, to assure the best coverage\"</p>",
+        "id": 116828,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1483652149
+    },
+    {
+        "content": "<p>Whoops, missed it then.<br>\nJust a quick note, \"time zones\" is written with a space :)</p>",
+        "id": 116831,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1483652247
+    },
+    {
+        "content": "<p>I think in American English it's actually <code>timezone</code></p>",
+        "id": 116837,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1483652304
+    },
+    {
+        "content": "<p>but the plural might be with a space for some bizarre reason :)</p>",
+        "id": 116838,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1483652335
+    },
+    {
+        "content": "<p>I've seen it both ways in American English.  I actually use a space.</p>",
+        "id": 116839,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1483652385
+    },
+    {
+        "content": "<p>Sorry again, you are right <a href=\"http://english.stackexchange.com/questions/3934/time-zone-vs-timezone\" target=\"_blank\" title=\"http://english.stackexchange.com/questions/3934/time-zone-vs-timezone\">http://english.stackexchange.com/questions/3934/time-zone-vs-timezone</a></p>",
+        "id": 116840,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1483652398
+    },
+    {
+        "content": "<p>but, yeah, after posting the doc I've found three typos already and some grammar issues :)</p>",
+        "id": 116841,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1483652427
+    },
+    {
+        "content": "<p>Yeah its a really good one</p>",
+        "id": 135925,
+        "sender_full_name": "Anirudh Jain",
+        "timestamp": 1485261887
+    }
+]

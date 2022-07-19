@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Fyi, <a href=\"https://opensource.googleblog.com/2018/08/announcing-google-code-in-2018.html\" target=\"_blank\" title=\"https://opensource.googleblog.com/2018/08/announcing-google-code-in-2018.html\">https://opensource.googleblog.com/2018/08/announcing-google-code-in-2018.html</a></p>",
+        "id": 640115,
+        "sender_full_name": "Rafid Aslam",
+        "timestamp": 1535588157
+    },
+    {
+        "content": "<p>Seems like they're starting earlier and ending earlier this year, interesting.</p>",
+        "id": 640120,
+        "sender_full_name": "Cynthia Lin",
+        "timestamp": 1535594125
+    },
+    {
+        "content": "<p>Yes, and there are some other major changes from the previous GCI contests<br>\n(copying from GSoC mailing list)</p>\n<blockquote>\n<p>The major changes for GCI 2018 are:<br>\n - Orgs will evaluate the 20 students completing the most tasks with their org when deciding on finalists and winners<br>\n - Orgs will choose 6 finalists (instead of 5)<br>\n - We have renamed the User Interface category to Design <br>\n - Students will have to wait until Google reviews their Parental Consent form before they can claim their first task. This will slow things down but it is a requirement to be able to continue the program.<br>\n - No tasks asking for personal information about students will be allowed (this includes tasks asking for students to introduce themselves with info like what country they are from, or photos of the students, etc.).</p>\n</blockquote>",
+        "id": 640161,
+        "sender_full_name": "Rafid Aslam",
+        "timestamp": 1535626656
+    },
+    {
+        "content": "<p>Hmm, the new schedule feels harder to manage.</p>",
+        "id": 640362,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1535689562
+    },
+    {
+        "content": "<p>(It won't be during college finals, which is good for mentors)</p>",
+        "id": 640366,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1535690244
+    },
+    {
+        "content": "<p>It ends before the holiday season as well, so it eliminates the whole \"mentors are away during break and can't review\" issue</p>",
+        "id": 640388,
+        "sender_full_name": "Cynthia Lin",
+        "timestamp": 1535692340
+    },
+    {
+        "content": "<blockquote>\n<p>It ends before the holiday season as well, so it eliminates the whole \"mentors are away during break and can't review\" issue</p>\n</blockquote>\n<p>Haha, yeah, but it'd become worse when the \"mentors are away because of busy of working/studying\" comes</p>",
+        "id": 640472,
+        "sender_full_name": "Rafid Aslam",
+        "timestamp": 1535719610
+    },
+    {
+        "content": "<p>I bet there's going to be a lot of applicants, since it seems like the number of entries has been growing exponentially each year. Maybe that's why they're increasing the number of finalists.</p>",
+        "id": 640846,
+        "sender_full_name": "skunkmb (Marco Burstein)",
+        "timestamp": 1535902123
+    },
+    {
+        "content": "<p>Only by 1 (for each org) however.</p>",
+        "id": 640884,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1535935079
+    },
+    {
+        "content": "<p>Hey all, Khushal Sharma here, I would like to contribute to this community by becoming GCI mentor this year, so i want to know any plans for this year and where should i look for.</p>",
+        "id": 641004,
+        "sender_full_name": "Khushal Sharma",
+        "timestamp": 1535970870
+    }
+]

@@ -1,0 +1,134 @@
+[
+    {
+        "content": "<p>Heyo Folks, for those who working on interactive bots task, just now we've merged an commit about interactive bots to master: <a href=\"https://github.com/zulip/zulip/commit/947fdf0b37d18923b7aa6346f6ea9b433db0f0c7\" target=\"_blank\" title=\"https://github.com/zulip/zulip/commit/947fdf0b37d18923b7aa6346f6ea9b433db0f0c7\">947fdf</a> . That commit adds <code>client</code> argument to <code>triage_message()</code> of every bot codes. So please rebase your bot code to the latest build of master and add <code>client</code> argument to your bot's <code>triage_message()</code>.<br>\nAlso, this allows us to access name and email address of the bot account, by accessing:</p>\n<ul>\n<li><code>client.full_name</code> to get the name of the bot account.</li>\n<li><code>client.email</code> to get the email of the bot account.</li>\n</ul>",
+        "id": 106335,
+        "sender_full_name": "Rafid Aslam",
+        "timestamp": 1482778672
+    },
+    {
+        "content": "<p>cool!</p>",
+        "id": 106338,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1482778700
+    },
+    {
+        "content": "<p>Thanks for the heads-up, <span class=\"user-mention\" data-user-email=\"rafidteam@gmail.com\">@Rafid Aslam</span>!</p>",
+        "id": 106343,
+        "sender_full_name": "Yago González",
+        "timestamp": 1482778748
+    },
+    {
+        "content": "<p>Another enhancement for<code>run.py</code> may be to make it fail fast somehow when your configuration is broken.  This may require modifications to the API.</p>",
+        "id": 106346,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1482778778
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"showell30@yahoo.com\">@Steve Howell</span> so that enhancement is not implemented yet ?</p>",
+        "id": 106367,
+        "sender_full_name": "Rafid Aslam",
+        "timestamp": 1482779308
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"showell30@yahoo.com\">@Steve Howell</span> Remember what we talked in <a class=\"stream\" data-stream-id=\"74\" href=\"/#narrow/stream/GCI%20general\">#GCI general</a> (<a href=\"https://chat.zulip.org/#narrow/stream/GCI.20general/topic/Importing.20\" target=\"_blank\" title=\"https://chat.zulip.org/#narrow/stream/GCI.20general/topic/Importing.20\">Importing 'zerver'</a> stream)?</p>",
+        "id": 106382,
+        "sender_full_name": "Yago González",
+        "timestamp": 1482780066
+    },
+    {
+        "content": "<p>It was about adding the client's <code>do_api_query()</code> method to the <code>RestrictedClient</code>, in order to be able to do queries to the API. In my case I needed it for uploading images, but I guess it could be pretty useful for other purposes.</p>",
+        "id": 106383,
+        "sender_full_name": "Yago González",
+        "timestamp": 1482780068
+    },
+    {
+        "content": "<p>If you still think it's a good idea, I could create a PR too</p>",
+        "id": 106388,
+        "sender_full_name": "Yago González",
+        "timestamp": 1482780165
+    },
+    {
+        "content": "<p>How about all the current bots in <code>/contrib_bots</code>, don't they need to be changed also?</p>",
+        "id": 106390,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1482780449
+    },
+    {
+        "content": "<p>Looks like Rafid already got rid of that, too. All of them have been updated (look at the commit he linked to) :)</p>",
+        "id": 106393,
+        "sender_full_name": "Yago González",
+        "timestamp": 1482780561
+    },
+    {
+        "content": "<p><img alt=\":ok_hand:\" class=\"emoji\" src=\"/static/third/gemoji/images/emoji/ok_hand.png\" title=\":ok_hand:\"> </p>",
+        "id": 106394,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1482780588
+    },
+    {
+        "content": "<p>I just created a <a href=\"https://github.com/zulip/zulip/pull/2929\" target=\"_blank\" title=\"https://github.com/zulip/zulip/pull/2929\">PR</a> in order to update the documentation on developing bots to contain the new feature. </p>",
+        "id": 106469,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1482793695
+    },
+    {
+        "content": "<p>Also, I noticed that the new <code>client</code> object in <code>triage_message</code> contains the function <code>client.send_message</code> as well. This is surely not desirable, as we do not want to send any messages in <code>triage_message</code></p>",
+        "id": 106470,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1482793792
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"robhoenig@gmail.com\">@Robert Hönig</span> looked at your PR. Looks good.</p>",
+        "id": 106471,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1482793881
+    },
+    {
+        "content": "<p>I also think that <code>client.send_message</code> is not needed, since the <code>message</code> already has it.</p>",
+        "id": 106472,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1482793898
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"joshuapan8@gmail.com\">@Joshua Pan</span> I just had a glance at the code. In order to remove client.send_message from the object, I think that it would be necessary to create a new object. Should I do that in another PR?</p>",
+        "id": 106477,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1482794516
+    },
+    {
+        "content": "<p>Yea, definitely. Keep the two commits in two different PRs.</p>",
+        "id": 106482,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1482794610
+    },
+    {
+        "content": "<p>okay :) the checks for the first PR have passed, can you merge it?</p>",
+        "id": 106488,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1482794810
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"robhoenig@gmail.com\">@Robert Hönig</span> that's <a href=\"https://github.com/zulip/zulip/pull/2929/files\" target=\"_blank\" title=\"https://github.com/zulip/zulip/pull/2929/files\">https://github.com/zulip/zulip/pull/2929/files</a>?</p>",
+        "id": 106489,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1482794879
+    },
+    {
+        "content": "<p>yep :)</p>",
+        "id": 106490,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1482794899
+    },
+    {
+        "content": "<p>thanks for merging <span class=\"user-mention\" data-user-email=\"tabbott@zulipchat.com\">@Tim Abbott</span>!</p>",
+        "id": 106524,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1482797568
+    },
+    {
+        "content": "<p>Ideally that parameter would be called something more like <code>client_info</code>.</p>",
+        "id": 108449,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1482938538
+    }
+]

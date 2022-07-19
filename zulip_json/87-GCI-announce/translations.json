@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>Change to the translations tasks B and C requirements:</p>\n<ul>\n<li>For tasks A, D, and E: Native fluency in the appropriate language. For tasks B and C: This must be your primary language; i.e. your operating system, browser, email, etc defaults should be this language.</li>\n</ul>\n<p>B and C are \"Write general rules for translation\" and \"Translate special terms used in Zulip\"<br>\n<a href=\"https://github.com/zulip/zulip-gci/blob/master/tasks/translations.md\" target=\"_blank\" title=\"https://github.com/zulip/zulip-gci/blob/master/tasks/translations.md\">https://github.com/zulip/zulip-gci/blob/master/tasks/translations.md</a></p>",
+        "id": 116786,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1483650527
+    }
+]

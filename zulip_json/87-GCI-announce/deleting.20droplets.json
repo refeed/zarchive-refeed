@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"*\" data-user-id=\"*\">@all</span>  We would start the process of deleting the digital ocean droplets (remote VM) in <strong>2 days</strong>. Please push the code to your GitHub fork if necessary as once the droplets are deleted there is no way to gain access to any of the content again. We are happy to grant an extension up to 2 weeks if you are still using them. Please PM me if you want an extension. Thanks :)</p>",
+        "id": 460124,
+        "sender_full_name": "Vishnu KS",
+        "timestamp": 1516652699
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"vishnu@zulipchat.com\" data-user-id=\"52\">@Vishnu Ks</span> <br>\nI still trying <a href=\"https://github.com/zulip/zulip/pull/8022\" target=\"_blank\" title=\"https://github.com/zulip/zulip/pull/8022\">it</a>.</p>\n<p>Would you please extend?</p>",
+        "id": 463668,
+        "sender_full_name": "Kaoru HIGUCHI",
+        "timestamp": 1516797665
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"nyan.salmon+sns@gmail.com\" data-user-id=\"4336\">@Kaoru HIGUCHI</span> Cool :)</p>",
+        "id": 463693,
+        "sender_full_name": "Vishnu KS",
+        "timestamp": 1516800253
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"vishnu@zulipchat.com\" data-user-id=\"52\">@Vishnu Ks</span> Please keep my instance as well :)</p>",
+        "id": 466875,
+        "sender_full_name": "Sampriti Panda",
+        "timestamp": 1516923056
+    },
+    {
+        "content": "<p>All the droplets of GCI students who has not asked for an extension has been destroyed.</p>",
+        "id": 468108,
+        "sender_full_name": "Vishnu KS",
+        "timestamp": 1516990631
+    }
+]

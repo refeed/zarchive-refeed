@@ -1,0 +1,560 @@
+[
+    {
+        "content": "<p>We've released some new tasks to help us write the comparison page for Zulip's features against other chat products on the market.</p>",
+        "id": 73982,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1480792967
+    },
+    {
+        "content": "<p>Also, in case you folks are curious, GCI students have now completed a total of more than 170 Zulip tasks!  This is incredible.  </p>\n<p>We're working to release a lot more, since a lot of our tasks have been claimed at this point :)</p>",
+        "id": 74032,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1480794097
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"tabbott@zulipchat.com\">@Tim Abbott</span> how are you supposed to submit spreadsheets?</p>",
+        "id": 74165,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480797224
+    },
+    {
+        "content": "<p>Submit a link to a public Google spreadsheet</p>",
+        "id": 74188,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1480798434
+    },
+    {
+        "content": "<p>Ah, thanks!</p>",
+        "id": 74191,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480798472
+    },
+    {
+        "content": "<p>We're also now releasing a few dozen \"solve an open GitHub issue\" tasks for the main server project!  I recommend these tasks to folks who already have done our beginner tasks :).  </p>",
+        "id": 74217,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1480799141
+    },
+    {
+        "content": "<p>yay, there are really no new coding tasks anymore <img alt=\":thumbsup:\" class=\"emoji\" src=\"/static/third/gemoji/images/emoji/thumbsup.png\" title=\":thumbsup:\"></p>",
+        "id": 74218,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480799193
+    },
+    {
+        "content": "<p>yeah, we're working on getting several more categories of coding tasks out the door :)</p>",
+        "id": 74226,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1480799415
+    },
+    {
+        "content": "<p>Does anybody know what \"Put the spreadsheet and screenshots into a new directory gci/user-doc\" means?</p>",
+        "id": 75417,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480841138
+    },
+    {
+        "content": "<p>Reference <a href=\"https://github.com/hackerkid/zulip-gci/blob/master/tasks/chat-application-comparison.md#set-a\" target=\"_blank\" title=\"https://github.com/hackerkid/zulip-gci/blob/master/tasks/chat-application-comparison.md#set-a\">link</a>. <span class=\"user-mention\" data-user-email=\"kevinr@free-dissociation.com\">@Kevin Riggle</span> <span class=\"user-mention\" data-user-email=\"tomasz-kolek@o2.pl\">@Tomasz Kolek</span> </p>",
+        "id": 75419,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480841260
+    },
+    {
+        "content": "<p>...wait, why are we using the old version of that task, not the one I cleaned up?</p>",
+        "id": 75420,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480841348
+    },
+    {
+        "content": "<p>I don't know? It's on the GCI page...</p>",
+        "id": 75421,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480841375
+    },
+    {
+        "content": "<p><a href=\"https://codein.withgoogle.com/dashboard/task-instances/4906420384301056/\" target=\"_blank\" title=\"https://codein.withgoogle.com/dashboard/task-instances/4906420384301056/\">https://codein.withgoogle.com/dashboard/task-instances/4906420384301056/</a></p>",
+        "id": 75422,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480841378
+    },
+    {
+        "content": "<p>Yeah, that wasn't a question for you so much as for Tim/the other mentors/the gods...</p>",
+        "id": 75423,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480841403
+    },
+    {
+        "content": "<p>oh lol, my bad</p>",
+        "id": 75424,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480841414
+    },
+    {
+        "content": "<p>Hold off on tackling that task for a bit while I see what's up.</p>",
+        "id": 75425,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480841435
+    },
+    {
+        "content": "<p>no worries :)</p>",
+        "id": 75426,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480841439
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"kevinr@free-dissociation.com\">@Kevin Riggle</span> okay, I've already finished compiling all the spreadsheets and everything. I just need to submit, so just mention me when you find out what's wrong.</p>",
+        "id": 75428,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480841521
+    },
+    {
+        "content": "<p>Will do</p>",
+        "id": 75429,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480841541
+    },
+    {
+        "content": "<p>Actually, do you mind just looking over my spreadsheet right now? or are you too busy?</p>",
+        "id": 75430,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480841545
+    },
+    {
+        "content": "<p>Too busy, I'm sorry :/</p>",
+        "id": 75431,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480841556
+    },
+    {
+        "content": "<p>Ok. That's cool!</p>",
+        "id": 75433,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480841566
+    },
+    {
+        "content": "<p>Which subtask did you do?</p>",
+        "id": 75434,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480841577
+    },
+    {
+        "content": "<p>Slack A – aka the one with all \"Yes\"</p>",
+        "id": 75435,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480841594
+    },
+    {
+        "content": "<p>xD</p>",
+        "id": 75436,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480841601
+    },
+    {
+        "content": "<p>Hahaha</p>",
+        "id": 75437,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480841626
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"kevinr@free-dissociation.com\">@Kevin Riggle</span> I'm off. Just mention me when you get the stuff sorted out. It's late and need to catch up on sleep. Hopefully you will have a good night's rest (or good day's rest)! Thanks for all the help :)</p>",
+        "id": 75438,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480841893
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"joshuapan8@gmail.com\">@Joshua Pan</span> Will do :)  You're welcome!</p>",
+        "id": 75444,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480842061
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"joshuapan8@gmail.com\">@Joshua Pan</span> Found the issue (or at least my revised version). Dunno why those tasks are linking to a very old version of that task, but I'll fix them.</p>\n<p>Instead use the instructions here:<br>\n<a href=\"https://github.com/zulip/zulip-gci/blob/master/tasks/chat-application-comparison.md#set-a\" target=\"_blank\" title=\"https://github.com/zulip/zulip-gci/blob/master/tasks/chat-application-comparison.md#set-a\">https://github.com/zulip/zulip-gci/blob/master/tasks/chat-application-comparison.md#set-a</a></p>\n<p>Which have you put the spreadsheet in a publicly-accessible Google Doc and link it from the comments on your GCI task.  Also double-check that all the things it's asking you to look for are the same---they should mostly be, but I might have made a couple changes.</p>",
+        "id": 75448,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480842981
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"kevinr@free-dissociation.com\">@Kevin Riggle</span> perfect timing. I just finished brushing and getting ready for bed.</p>",
+        "id": 75449,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480843119
+    },
+    {
+        "content": "<p>I've commented the spreadsheet already on GCI. Hope it gets approved soon :D</p>",
+        "id": 75450,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480843140
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"joshuapan8@gmail.com\">@Joshua Pan</span> Oh no! Well, go to bed, and it'll be approved in the morning. :-D</p>",
+        "id": 75451,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480843161
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"kevinr@free-dissociation.com\">@Kevin Riggle</span> btw, you should change the links in the GCI descriptions. The individual components in task B are quite different.</p>",
+        "id": 75453,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480843222
+    },
+    {
+        "content": "<p>Working on it :)</p>",
+        "id": 75456,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480843246
+    },
+    {
+        "content": "<p>Sorry for the confusion folks!  </p>",
+        "id": 76681,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1480870205
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"tabbott@zulipchat.com\">@Tim Abbott</span> can you look over my submission for the spreadsheet?</p>",
+        "id": 76985,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480878033
+    },
+    {
+        "content": "<p>Any mentors can help me out here?</p>",
+        "id": 77095,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480880280
+    },
+    {
+        "content": "<p>I just need a simple approve, since the only comment was to make sure the links on my spreadsheet were clickable.</p>",
+        "id": 77132,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480880712
+    },
+    {
+        "content": "<p>Can you please post a link?</p>",
+        "id": 77145,
+        "sender_full_name": "Reyha Verma",
+        "timestamp": 1480880885
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"reyhaverma@gmail.com\">@Reyha Verma</span> of my spreadsheet or tasks on GCI?</p>",
+        "id": 77148,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480880928
+    },
+    {
+        "content": "<p>GCI task: <a href=\"https://codein.withgoogle.com/dashboard/task-instances/4906420384301056/\" target=\"_blank\" title=\"https://codein.withgoogle.com/dashboard/task-instances/4906420384301056/\">https://codein.withgoogle.com/dashboard/task-instances/4906420384301056/</a></p>",
+        "id": 77149,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480880934
+    },
+    {
+        "content": "<p>Thanks for the link. I am looking at your spreadsheet right now. I am not able to see your screenshots. The links are not working for me.</p>",
+        "id": 77195,
+        "sender_full_name": "Reyha Verma",
+        "timestamp": 1480881573
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"reyhaverma@gmail.com\">@Reyha Verma</span> That's weird... I'll look into it.</p>",
+        "id": 77197,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480881614
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"reyhaverma@gmail.com\">@Reyha Verma</span> my bad... I put them in folders, so they got lost...</p>",
+        "id": 77202,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480881681
+    },
+    {
+        "content": "<p>Yeah, no problem :)</p>",
+        "id": 77205,
+        "sender_full_name": "Reyha Verma",
+        "timestamp": 1480881694
+    },
+    {
+        "content": "<p>Go ahead and modify your links. Let us know once you are done. </p>",
+        "id": 77211,
+        "sender_full_name": "Reyha Verma",
+        "timestamp": 1480881742
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"reyhaverma@gmail.com\">@Reyha Verma</span> I have fixed all the links.</p>",
+        "id": 77215,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480881849
+    },
+    {
+        "content": "<p>Another application I just thought of is Gitter. I'm not sure if it's similar enough to compare to Zulip, but here's a screenshot.<a href=\"/user_uploads/2/d9/lyqP74Ba8Jv80IX-cGxWhOAg/Screenshot_34.png\" target=\"_blank\" title=\"Screenshot_34.png\">Screenshot_34.png</a> </p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/2/d9/lyqP74Ba8Jv80IX-cGxWhOAg/Screenshot_34.png\" target=\"_blank\" title=\"Screenshot_34.png\"><img src=\"/user_uploads/2/d9/lyqP74Ba8Jv80IX-cGxWhOAg/Screenshot_34.png\"></a></div>",
+        "id": 77226,
+        "sender_full_name": "Joy Chen",
+        "timestamp": 1480882159
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"joythewizard@gmail.com\">@Joy Chen</span> It looks really similar wow.</p>",
+        "id": 77228,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480882210
+    },
+    {
+        "content": "<p>Yeah, the links work now :) Good job. I think you can clear up the screenshot section a bit by queuing the links properly like - <a href=\"https://docs.google.com/spreadsheets/d/16a46fPeEd-PnqS5ZBpspTScnjIaXwr60xFVEdcwKiTY/edit#gid=0\" target=\"_blank\" title=\"https://docs.google.com/spreadsheets/d/16a46fPeEd-PnqS5ZBpspTScnjIaXwr60xFVEdcwKiTY/edit#gid=0\">https://docs.google.com/spreadsheets/d/16a46fPeEd-PnqS5ZBpspTScnjIaXwr60xFVEdcwKiTY/edit#gid=0</a> , just so that it looks a bit clean. </p>",
+        "id": 77233,
+        "sender_full_name": "Reyha Verma",
+        "timestamp": 1480882335
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"reyhaverma@gmail.com\">@Reyha Verma</span> I tried that, but the links are clickable, which was what Fahri said to do in the comments.</p>",
+        "id": 77234,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480882363
+    },
+    {
+        "content": "<p>I initially had that... but the links weren't clickable.</p>",
+        "id": 77240,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480882496
+    },
+    {
+        "content": "<p>Google Spreadsheets doesn't allow me to make multiple links in the same cell...</p>",
+        "id": 77242,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480882590
+    },
+    {
+        "content": "<p>I see. I had a look at the comments. Your work looks good. </p>",
+        "id": 77255,
+        "sender_full_name": "Reyha Verma",
+        "timestamp": 1480882960
+    },
+    {
+        "content": "<p>Thanks!</p>",
+        "id": 77256,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480882985
+    },
+    {
+        "content": "<p>Is it almost ready to be approved?</p>",
+        "id": 77279,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480883170
+    },
+    {
+        "content": "<p>Approved :)</p>",
+        "id": 77288,
+        "sender_full_name": "Reyha Verma",
+        "timestamp": 1480883324
+    },
+    {
+        "content": "<p>Thanks!!!!!</p>",
+        "id": 77289,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480883331
+    },
+    {
+        "content": "<p>You're welcome!</p>",
+        "id": 77290,
+        "sender_full_name": "Reyha Verma",
+        "timestamp": 1480883341
+    },
+    {
+        "content": "<p>Can a mentor please approve my task? <a href=\"https://codein.withgoogle.com/dashboard/task-instances/5152429937000448/\" target=\"_blank\" title=\"https://codein.withgoogle.com/dashboard/task-instances/5152429937000448/\">https://codein.withgoogle.com/dashboard/task-instances/5152429937000448/</a></p>",
+        "id": 80485,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1481013755
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"umair.waheed@gmail.com\">@Umair Khan</span> <span class=\"user-mention\" data-user-email=\"tomasz-kolek@o2.pl\">@Tomasz Kolek</span> Are you guys busy? If so, no worries, didn't mean to bother you.</p>",
+        "id": 80500,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1481014148
+    },
+    {
+        "content": "<p>I'm not on the shift right now and don't fully able to do it. But no worries - you are in the queue and be sure your task will be reviewed as soon as possible.</p>",
+        "id": 80503,
+        "sender_full_name": "Tomasz Kolek",
+        "timestamp": 1481014194
+    },
+    {
+        "content": "<p>Thanks.</p>",
+        "id": 80504,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1481014207
+    },
+    {
+        "content": "<p>I'll probably look for it tomorrow morning anyways.</p>",
+        "id": 80506,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1481014221
+    },
+    {
+        "content": "<p>Just wanted to see if I could claim the mypy task ASAP because it probably is going to be taken by then.</p>",
+        "id": 80507,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1481014255
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"alicja.raszkowska@gmail.com\">@Alicja Raszkowska</span> There are no newsfeed or off-the-record chat on Slack; I checked their documentation pretty thoroughly already.</p>",
+        "id": 81061,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1481044775
+    },
+    {
+        "content": "<p>I'm not doubting you did, it's just that I'd expect a comment on that</p>",
+        "id": 81062,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1481044819
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"alicja.raszkowska@gmail.com\">@Alicja Raszkowska</span> Did you want me to put that \"there is no newsfeed and no off-the-record chat\" on the spreadsheet?</p>",
+        "id": 81571,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1481058041
+    },
+    {
+        "content": "<p>Can a mentor look over my spreadsheet?</p>",
+        "id": 81641,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1481059807
+    },
+    {
+        "content": "<p>I wanted you to make sure there is no explicit info on that and if there isn't - comment in the file that there's none and the feature is not available</p>",
+        "id": 81643,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1481059827
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"alicja.raszkowska@gmail.com\">@Alicja Raszkowska</span> Did that! :)</p>",
+        "id": 81648,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1481059854
+    },
+    {
+        "content": "<p>because otherwise those two questions had no additional comment and it was hard to say if you've checked</p>",
+        "id": 81649,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1481059859
+    },
+    {
+        "content": "<p>cool :)</p>",
+        "id": 81650,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1481059861
+    },
+    {
+        "content": "<p>You can double check on the GCI portal.</p>",
+        "id": 81651,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1481059871
+    },
+    {
+        "content": "<p>I'm not on shift at the moment, but another mentor will check your submission soon</p>",
+        "id": 81653,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1481059924
+    },
+    {
+        "content": "<p>Ok. thanks.</p>",
+        "id": 81654,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1481059987
+    },
+    {
+        "content": "<p>Just released around 50 additional user guide tasks!<br>\nAlso released 2 small mypy annotations tasks. </p>",
+        "id": 93758,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1481759255
+    },
+    {
+        "content": "<p>Yay!  The 50 user guides tasks, if completed, would basically fully document the features of Zulip, which would be an amazing goal to accomplish by the end of GCI :)</p>",
+        "id": 93760,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1481759324
+    },
+    {
+        "content": "<p>yay <img alt=\":octopus:\" class=\"emoji\" src=\"/static/third/gemoji/images/emoji/octopus.png\" title=\":octopus:\"> </p>",
+        "id": 93761,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1481759418
+    },
+    {
+        "content": "<p>I just uploaded another ~15 GitHub bite-size issue tasks.</p>",
+        "id": 93816,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1481764345
+    },
+    {
+        "content": "<p>Just uploaded another 30 user guide tasks! <br>\n(ah oops, miscommunication between the mentors, re: the earlier parts of this thread. But it is true that if these 80 (50 from last week and 30 from now) are completed we will have almost fully documented the user facing features of zulip :))</p>",
+        "id": 103216,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1482445456
+    },
+    {
+        "content": "<p>New translation tasks posted for Simplified Chinese, German, Russian, Italian, French, Turkish, Portuguese, Arabic, Hindi, Japanese, Malayalam, Serbian, Hungarian, and Korean; thanks <span class=\"user-mention\" data-user-email=\"alicja.raszkowska@gmail.com\">@Alicja Raszkowska</span>!<br>\nIf you have native fluency in a language not listed and want to help with translations, let us know!</p>",
+        "id": 107554,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1482875255
+    },
+    {
+        "content": "<p>there is also a task for proposing a language ;)</p>",
+        "id": 107555,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1482875286
+    },
+    {
+        "content": "<p>I could help with Dutch translations</p>",
+        "id": 107557,
+        "sender_full_name": "Thomas de Mol",
+        "timestamp": 1482875362
+    },
+    {
+        "content": "<p>Posted 15 more mypy tasks! (the \"add annotations to a file\" kind)</p>",
+        "id": 107907,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1482903428
+    },
+    {
+        "content": "<p><img alt=\":party_popper:\" class=\"emoji\" src=\"/static/third/gemoji/images/emoji/party_popper.png\" title=\":party_popper:\"> </p>",
+        "id": 107909,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1482903525
+    },
+    {
+        "content": "<p>Hi students! Just to make sure, no one is doing the mypy task: <code>svn/post_commit</code> right?</p>",
+        "id": 108165,
+        "sender_full_name": "Tommy Ip",
+        "timestamp": 1482925433
+    },
+    {
+        "content": "<p>Added 5 more github issues tasks!</p>",
+        "id": 110953,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1483147990
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"rishig@zulipchat.com\">@Rishi Gupta</span> the first task has already been closed: <a href=\"https://codein.withgoogle.com/tasks/5213747381534720/?sp-organization=4718815233441792&amp;sp-is_beginner=False&amp;sp-categories=1\" target=\"_blank\" title=\"https://codein.withgoogle.com/tasks/5213747381534720/?sp-organization=4718815233441792&amp;sp-is_beginner=False&amp;sp-categories=1\">https://codein.withgoogle.com/tasks/5213747381534720/?sp-organization=4718815233441792&amp;sp-is_beginner=False&amp;sp-categories=1</a></p>",
+        "id": 110954,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1483148374
+    },
+    {
+        "content": "<p>Created 3 new tasks for Zulip react repo (mobile)</p>\n<ul>\n<li><a href=\"https://codein.withgoogle.com/tasks/5743239476805632/\" target=\"_blank\" title=\"https://codein.withgoogle.com/tasks/5743239476805632/\">https://codein.withgoogle.com/tasks/5743239476805632/</a></li>\n<li><a href=\"https://codein.withgoogle.com/tasks/4664173503971328/\" target=\"_blank\" title=\"https://codein.withgoogle.com/tasks/4664173503971328/\">https://codein.withgoogle.com/tasks/4664173503971328/</a></li>\n<li><a href=\"https://codein.withgoogle.com/tasks/4664173503971328/\" target=\"_blank\" title=\"https://codein.withgoogle.com/tasks/4664173503971328/\">https://codein.withgoogle.com/tasks/4664173503971328/</a></li>\n</ul>",
+        "id": 376422,
+        "sender_full_name": "Vishnu KS",
+        "timestamp": 1512861856
+    },
+    {
+        "content": "<p>Created 2 new issue tasks for Zulip server repo</p>\n<ul>\n<li><a href=\"https://codein.withgoogle.com/tasks/5404064969916416/\" target=\"_blank\" title=\"https://codein.withgoogle.com/tasks/5404064969916416/\">https://codein.withgoogle.com/tasks/5404064969916416/</a></li>\n<li><a href=\"https://codein.withgoogle.com/tasks/6449203653902336/\" target=\"_blank\" title=\"https://codein.withgoogle.com/tasks/6449203653902336/\">https://codein.withgoogle.com/tasks/6449203653902336/</a></li>\n</ul>",
+        "id": 389819,
+        "sender_full_name": "Vishnu KS",
+        "timestamp": 1513348125
+    },
+    {
+        "content": "<p>(Deleted)</p>",
+        "id": 389881,
+        "sender_full_name": "Balaji",
+        "timestamp": 1513349714
+    },
+    {
+        "content": "<p>(Deleted)</p>",
+        "id": 389883,
+        "sender_full_name": "Balaji",
+        "timestamp": 1513349792
+    }
+]

@@ -1,0 +1,152 @@
+[
+    {
+        "content": "<p>Currently, the stream lists is ordered alphabetically. Given the amount of streams I am subscribed to, I usually need to scroll up and down to find that one that I need. Maybe we could add a feature to reorder the streams manually.</p>",
+        "id": 126176,
+        "sender_full_name": "Tommy Ip",
+        "timestamp": 1484260156
+    },
+    {
+        "content": "<p>Good idea, a drag-and-drop solution would be nice here.</p>",
+        "id": 126177,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1484260215
+    },
+    {
+        "content": "<p>How much harder is it?</p>",
+        "id": 126180,
+        "sender_full_name": "Sampriti Panda",
+        "timestamp": 1484260273
+    },
+    {
+        "content": "<p>Maybe have a separate list of streams for most frequently visited streams?</p>",
+        "id": 126182,
+        "sender_full_name": "Tommy Ip",
+        "timestamp": 1484260283
+    },
+    {
+        "content": "<p>It would be nice to have it, but I think it's adding to the complexity.</p>",
+        "id": 126183,
+        "sender_full_name": "Sampriti Panda",
+        "timestamp": 1484260292
+    },
+    {
+        "content": "<p>Or add an option to the gear next to \"streams\". Users could then select their preference of sorting.</p>",
+        "id": 126187,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1484260368
+    },
+    {
+        "content": "<p>I think having a seperate sorting for frequently visited would be nice.</p>",
+        "id": 126190,
+        "sender_full_name": "Sampriti Panda",
+        "timestamp": 1484260448
+    },
+    {
+        "content": "<p>I usually have a few pinned streams I use most frequently</p>",
+        "id": 126197,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1484260643
+    },
+    {
+        "content": "<p>and then use the filtering option for finding any streams I want to use that are not pinned</p>",
+        "id": 126200,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1484260664
+    },
+    {
+        "content": "<p>or the search bar directly, because it's easier to use</p>",
+        "id": 126202,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1484260676
+    },
+    {
+        "content": "<p>also, if a stream has been inactive for a long time, it will be grayed out and below active streams</p>",
+        "id": 126208,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1484260718
+    },
+    {
+        "content": "<p>a list of streams from my other realm<br>\n<a href=\"/user_uploads/2/33/8lkOgLcHEQejACsB-Sx92sVA/Screen-Shot-2017-01-12-at-11.38.42-PM.png\" target=\"_blank\" title=\"Screen-Shot-2017-01-12-at-11.38.42-PM.png\">Screen-Shot-2017-01-12-at-11.38.42-PM.png</a> </p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/2/33/8lkOgLcHEQejACsB-Sx92sVA/Screen-Shot-2017-01-12-at-11.38.42-PM.png\" target=\"_blank\" title=\"Screen-Shot-2017-01-12-at-11.38.42-PM.png\"><img src=\"/user_uploads/2/33/8lkOgLcHEQejACsB-Sx92sVA/Screen-Shot-2017-01-12-at-11.38.42-PM.png\"></a></div>",
+        "id": 126209,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1484260753
+    },
+    {
+        "content": "<p>first pinned streams, then active streams (both including muted streams), and below those - inactive streams</p>",
+        "id": 126210,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1484260779
+    },
+    {
+        "content": "<p>having muted pinned streams somehow makes sense for me :)</p>",
+        "id": 126211,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1484260812
+    },
+    {
+        "content": "<p>the one disadvantage of frequently used streams I can think of is that the list could change a lot</p>",
+        "id": 126214,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1484260871
+    },
+    {
+        "content": "<p>and this could then make it harder to find the streams :)</p>",
+        "id": 126215,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1484260885
+    },
+    {
+        "content": "<p>Hm, those are good points. Is there already a doc on ordering Zulip streams that bundles all these features?</p>",
+        "id": 126218,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1484260909
+    },
+    {
+        "content": "<p>yeah it's hard to browse things that aren't sorted</p>",
+        "id": 126219,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1484260912
+    },
+    {
+        "content": "<p>I think it'd be great to have a \"guide\" type doc in the /help/ docs about how to combine these features well for organizing your left sidebar</p>",
+        "id": 126221,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1484260939
+    },
+    {
+        "content": "<p>I'll quickly create an issue for it.</p>",
+        "id": 126223,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1484260988
+    },
+    {
+        "content": "<p>I think inactive streams is the feature that's most confusing - it took me some time to figure out why some of my streams \"don't work properly\"</p>",
+        "id": 126225,
+        "sender_full_name": "Alicja Raszkowska",
+        "timestamp": 1484261038
+    },
+    {
+        "content": "<p>I just woke up but <img alt=\":+1:\" class=\"emoji\" src=\"/static/generated/emoji/images/emoji/+1.png\" title=\":+1:\"> to this suggestion. Sounds like a great feature to me.</p>",
+        "id": 126227,
+        "sender_full_name": "Patrick Grave",
+        "timestamp": 1484261063
+    },
+    {
+        "content": "<p><a href=\"https://github.com/zulip/zulip/issues/3272\" target=\"_blank\" title=\"https://github.com/zulip/zulip/issues/3272\">https://github.com/zulip/zulip/issues/3272</a></p>",
+        "id": 126230,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1484261384
+    },
+    {
+        "content": "<p>Claimed!</p>",
+        "id": 126232,
+        "sender_full_name": "Patrick Grave",
+        "timestamp": 1484261483
+    },
+    {
+        "content": "<p><a href=\"https://github.com/zulip/zulip/pull/3282\" target=\"_blank\" title=\"https://github.com/zulip/zulip/pull/3282\">Here</a> is a pull request for this issue.</p>",
+        "id": 126570,
+        "sender_full_name": "Patrick Grave",
+        "timestamp": 1484293242
+    }
+]

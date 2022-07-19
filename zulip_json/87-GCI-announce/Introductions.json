@@ -1,0 +1,686 @@
+[
+    {
+        "content": "<p>Hey guys! I thought I'd start this topic so that we can get to know everyone involved in CodeIn. I guess I'll start out: my name is Zach Breit, and I'm a high schooler from NJ. I program for my robotics team and for fun. Oh yeah – I'm also really excited for CodeIn <img alt=\":face_with_stuck_out_tongue_and_winking_eye:\" class=\"emoji\" src=\"/static/third/gemoji/images/emoji/face_with_stuck_out_tongue_and_winking_eye.png\" title=\":face_with_stuck_out_tongue_and_winking_eye:\"></p>",
+        "id": 60022,
+        "sender_full_name": "Zach Breit",
+        "timestamp": 1480355906
+    },
+    {
+        "content": "<p>Hello <span class=\"user-mention\" data-user-email=\"zbreit18@gmail.com\">@Zach Breit</span>  Welcome to the project.</p>",
+        "id": 60032,
+        "sender_full_name": "Sonali Gupta",
+        "timestamp": 1480356000
+    },
+    {
+        "content": "<p>Cool, welcome!</p>",
+        "id": 60033,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1480356000
+    },
+    {
+        "content": "<p>Hi, my name is Steve, and I'm one of the mentors.  I grew up in Maryland and currently live in California.</p>",
+        "id": 60039,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1480356069
+    },
+    {
+        "content": "<p>Hello everyone! I'm Kevin from Costa Rica, I'm excited too for Code In, as <span class=\"user-mention\" data-user-email=\"zbreit18@gmail.com\">@Zach Breit</span>  <img alt=\":face_with_tears_of_joy:\" class=\"emoji\" src=\"/static/third/gemoji/images/emoji/face_with_tears_of_joy.png\" title=\":face_with_tears_of_joy:\"> I was waiting for it all the year! Talking about me, I like programming a lot, I do it in my free times and for the robotics team of my school too. I think I'm going to focus a lot on Zulip's tasks, so, I'm looking forward to know everyone! Glad to meet you!</p>",
+        "id": 60352,
+        "sender_full_name": "Kevin Zeledon",
+        "timestamp": 1480363213
+    },
+    {
+        "content": "<p>Welcome <span class=\"user-mention\" data-user-email=\"magneticok@gmail.com\">@Kevin Zeledon</span>, great to meet you!</p>",
+        "id": 60353,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1480363245
+    },
+    {
+        "content": "<p>Hey <span class=\"user-mention\" data-user-email=\"magneticok@gmail.com\">@Kevin Zeledon</span>. Is your robotics team associated with FIRST?</p>",
+        "id": 60354,
+        "sender_full_name": "Zach Breit",
+        "timestamp": 1480363298
+    },
+    {
+        "content": "<p>What's up:D</p>",
+        "id": 60355,
+        "sender_full_name": "Joy Chen",
+        "timestamp": 1480363313
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"zbreit18@gmail.com\">@Zach Breit</span>  Nope, we do LEGO Mindstorms robotics  <img alt=\":face_with_tears_of_joy:\" class=\"emoji\" src=\"/static/third/gemoji/images/emoji/face_with_tears_of_joy.png\" title=\":face_with_tears_of_joy:\"> </p>",
+        "id": 60356,
+        "sender_full_name": "Kevin Zeledon",
+        "timestamp": 1480363359
+    },
+    {
+        "content": "<p>Hey guys I'm Heidi &amp; I'm from California!</p>",
+        "id": 60424,
+        "sender_full_name": "Heidi Dong",
+        "timestamp": 1480365250
+    },
+    {
+        "content": "<p>Hi, Heidi!</p>",
+        "id": 60429,
+        "sender_full_name": "Kevin Zeledon",
+        "timestamp": 1480365343
+    },
+    {
+        "content": "<p>Welcome <span class=\"user-mention\" data-user-email=\"dong.heidi@gmail.com\">@Heidi Dong</span>!  I'm from California too :)</p>",
+        "id": 60431,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1480365384
+    },
+    {
+        "content": "<p>Hi <span class=\"user-mention\" data-user-email=\"dong.heidi@gmail.com\">@Heidi Dong</span>!! I wish I was from CA :( too cold in IL</p>",
+        "id": 60508,
+        "sender_full_name": "Joy Chen",
+        "timestamp": 1480367949
+    },
+    {
+        "content": "<p>Hi everyone :) I'm Robert Hönig from Germany, just as excited as everybody else! I'm involved in some national programming contests, but nothing comparable to this.</p>",
+        "id": 60604,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1480371415
+    },
+    {
+        "content": "<p>Cool <span class=\"user-mention\" data-user-email=\"robhoenig@gmail.com\">@Robert Hönig</span>, welcome!  I was actually involved in the USACO back when I was a student :)</p>",
+        "id": 60607,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1480371473
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"tabbott@zulipchat.com\">@Tim Abbott</span> were you? wow, that is so cool! I am involved in the German national team for the IOI and we use to practice with USACO :D</p>",
+        "id": 60611,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1480371529
+    },
+    {
+        "content": "<p>Yep, I got a silver medal at the IOI back in 2003 :)</p>",
+        "id": 60620,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1480371684
+    },
+    {
+        "content": "<p>that's impressive! may I ask what you do for a living now? :)</p>",
+        "id": 60629,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1480371798
+    },
+    {
+        "content": "<p>Working on Zulip! :)</p>\n<p>I (as well as several other folks involved in the project) am working on a startup to provide Zulip hosting and commercial support, so that folks don't need to be a Linux expert to use Zulip :), and also to generate income we can use to fund a core Zulip development team.  This is actually my 3rd startup; the previous ones were acquired by Oracle and Dropbox, respectively.  The goal is to make it the case that there can be a significant team working on the Zulip open source project for a living :)</p>",
+        "id": 60640,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1480372113
+    },
+    {
+        "content": "<p>Howdy folks. My name's Kevin, I'm another mentor. We used Zulip at a previous job of mine, and I'm a friend of Tim's from school, so I'm helping out. :)</p>",
+        "id": 61094,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480381581
+    },
+    {
+        "content": "<p>(I'm from Boston.)</p>",
+        "id": 61095,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480381592
+    },
+    {
+        "content": "<p>Cool!  Are you interested in helping with a few tasks tonight?</p>",
+        "id": 61097,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1480381680
+    },
+    {
+        "content": "<p>I can!</p>",
+        "id": 61098,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480381766
+    },
+    {
+        "content": "<p>(Still catching up on the day's traffic.)</p>",
+        "id": 61099,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480381794
+    },
+    {
+        "content": "<p>So one of the challenges is that the GCI app is incredibly slow, and some of us don't seem to be able to filter tasks through the UI, but you can eventually find tasks in \"Submitted\" state.</p>",
+        "id": 61103,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1480381889
+    },
+    {
+        "content": "<p>We can help you out with that more on <a class=\"stream\" data-stream-id=\"76\" href=\"/#narrow/stream/GCI%20mentors\">#GCI mentors</a></p>",
+        "id": 61105,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1480381939
+    },
+    {
+        "content": "<p>-&gt; there</p>",
+        "id": 61106,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480381979
+    },
+    {
+        "content": "<p>Hi, I'm Alex, I'm from Australia, and I'm here to do stuff I guess</p>",
+        "id": 61881,
+        "sender_full_name": "『Ａlex🍕Huang』",
+        "timestamp": 1480401801
+    },
+    {
+        "content": "<p>welcome <span class=\"user-mention\" data-user-email=\"alhud1111111@gmail.com\">@Alex Huang</span> :)</p>",
+        "id": 61884,
+        "sender_full_name": "Arpith Siromoney",
+        "timestamp": 1480401831
+    },
+    {
+        "content": "<p>I'm from Australia too <span class=\"user-mention\" data-user-email=\"alhud1111111@gmail.com\">@Alex Huang</span> , how ya going?</p>",
+        "id": 61885,
+        "sender_full_name": "Vaibhav Sagar",
+        "timestamp": 1480401842
+    },
+    {
+        "content": "<p>Hi, I'm Alex too but I discovered the change name function.</p>",
+        "id": 61941,
+        "sender_full_name": "『Ａlex🍕Huang』",
+        "timestamp": 1480402845
+    },
+    {
+        "content": "<p>We're in for 40 days of people named '-- DROP TABLE users;' and '<img alt=\"👹\" class=\"emoji\" src=\"/static/third/gemoji/images/emoji/unicode/1f479.png\" title=\"👹\">' bopping around, aren't we.</p>\n<p>:D</p>",
+        "id": 61945,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480402917
+    },
+    {
+        "content": "<p>omg yes</p>",
+        "id": 61947,
+        "sender_full_name": "『Ａlex🍕Huang』",
+        "timestamp": 1480402933
+    },
+    {
+        "content": "<p>We're in for 40 days of people named '-- DROP TABLE users;' and '<img alt=\"👹\" class=\"emoji\" src=\"/static/third/gemoji/images/emoji/unicode/1f479.png\" title=\"👹\">' bopping around, aren't we.<br>\n^ this one needs to be added to the topic or pinned</p>",
+        "id": 61949,
+        "sender_full_name": "『Ａlex🍕Huang』",
+        "timestamp": 1480403019
+    },
+    {
+        "content": "<p>^</p>",
+        "id": 61950,
+        "sender_full_name": "Pike D.",
+        "timestamp": 1480403152
+    },
+    {
+        "content": "<p>49 days actually! I did the math!</p>",
+        "id": 61951,
+        "sender_full_name": "『Ａlex🍕Huang』",
+        "timestamp": 1480403411
+    },
+    {
+        "content": "<p>Hello! I'm a person from London who will probably help in some way, not exactly sure how yet</p>",
+        "id": 63387,
+        "sender_full_name": "Callum",
+        "timestamp": 1480456036
+    },
+    {
+        "content": "<p>:D</p>",
+        "id": 63388,
+        "sender_full_name": "Callum",
+        "timestamp": 1480456039
+    },
+    {
+        "content": "<p>Welcome!</p>",
+        "id": 63399,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1480456300
+    },
+    {
+        "content": "<p>Hi I'm Roy and I currently live in London. I am 16 years old and love coding and problem solving.</p>",
+        "id": 63455,
+        "sender_full_name": "Roy Abouhamad",
+        "timestamp": 1480457739
+    },
+    {
+        "content": "<p>im pizza</p>",
+        "id": 64474,
+        "sender_full_name": "『Ａlex🍕Huang』",
+        "timestamp": 1480476950
+    },
+    {
+        "content": "<p>im still pizza</p>",
+        "id": 64476,
+        "sender_full_name": "『Ａlex🍕Huang』",
+        "timestamp": 1480476965
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"alhud1111111@gmail.com\">@Alex<img alt=\"🍕\" class=\"emoji\" src=\"/static/third/gemoji/images/emoji/unicode/1f355.png\" title=\"🍕\">Huang</span> very creative!</p>",
+        "id": 64520,
+        "sender_full_name": "Christie Koehler",
+        "timestamp": 1480477386
+    },
+    {
+        "content": "<p>It's kinda cool that having pizza in your name works in Zulip :)</p>",
+        "id": 64522,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1480477449
+    },
+    {
+        "content": "<p>It's RIDICULOUSLY cool.</p>",
+        "id": 64566,
+        "sender_full_name": "『Ａlex🍕Huang』",
+        "timestamp": 1480478430
+    },
+    {
+        "content": "<p>This is the best chat client.</p>",
+        "id": 64567,
+        "sender_full_name": "『Ａlex🍕Huang』",
+        "timestamp": 1480478436
+    },
+    {
+        "content": "<p>i might just spend this entire code-in trying out what names work in this amazing client</p>",
+        "id": 64570,
+        "sender_full_name": "『Ａlex🍕Huang』",
+        "timestamp": 1480478500
+    },
+    {
+        "content": "<p>try weird characters</p>",
+        "id": 64572,
+        "sender_full_name": "Joy Chen",
+        "timestamp": 1480478529
+    },
+    {
+        "content": "<p>ÀÂÙĄʦʢʖɰ</p>",
+        "id": 64577,
+        "sender_full_name": "Joy Chen",
+        "timestamp": 1480478640
+    },
+    {
+        "content": "<p>woops</p>",
+        "id": 64578,
+        "sender_full_name": "Joy Chen",
+        "timestamp": 1480478644
+    },
+    {
+        "content": "<p>testing</p>",
+        "id": 64581,
+        "sender_full_name": "『Ａlex🍕Huang』",
+        "timestamp": 1480478708
+    },
+    {
+        "content": "<p>oh man, this actually works</p>",
+        "id": 64582,
+        "sender_full_name": "『Ａlex🍕Huang』",
+        "timestamp": 1480478714
+    },
+    {
+        "content": "<p>you can use <code>symbols in your name and it shows up as</code>stuff` though</p>",
+        "id": 64584,
+        "sender_full_name": "『Ａlex🍕Huang』",
+        "timestamp": 1480478730
+    },
+    {
+        "content": "<p>so you probably need to sanitize that</p>",
+        "id": 64585,
+        "sender_full_name": "『Ａlex🍕Huang』",
+        "timestamp": 1480478733
+    },
+    {
+        "content": "<p>in faaact,. that could be a codein task</p>",
+        "id": 64586,
+        "sender_full_name": "『Ａlex🍕Huang』",
+        "timestamp": 1480478740
+    },
+    {
+        "content": "<p>hi i'd just like to announce that I'M CODER</p>",
+        "id": 65830,
+        "sender_full_name": "『Ａlex🍕Huang』",
+        "timestamp": 1480539723
+    },
+    {
+        "content": "<p>Hi alex</p>",
+        "id": 65832,
+        "sender_full_name": "Joy Chen",
+        "timestamp": 1480539776
+    },
+    {
+        "content": "<p>Hey Alex! :D</p>",
+        "id": 66171,
+        "sender_full_name": "Pike D.",
+        "timestamp": 1480545560
+    },
+    {
+        "content": "<p>Hi everyone, It's been a while since I joined the chat but haven't had time to introduce myself :) I´m Juan from Venezuela, this is my second GCI. I really appreciate the open source community, I´ve been able to learn a lot working with mentors so far </p>",
+        "id": 72189,
+        "sender_full_name": "Juan Verhook (aka Juanvulcano)",
+        "timestamp": 1480718191
+    },
+    {
+        "content": "<p>Welcome, Juan!</p>",
+        "id": 72191,
+        "sender_full_name": "Zev Benjamin",
+        "timestamp": 1480718229
+    },
+    {
+        "content": "<p>or perhaps I should say, \"welcome back!\"</p>",
+        "id": 72193,
+        "sender_full_name": "Zev Benjamin",
+        "timestamp": 1480718244
+    },
+    {
+        "content": "<p>Hi Juan! Cool to meet someone from Venezuela. Been trying to watch an old Venezuelan telenovela to improve my Spanish lately but I only understand half of it lol</p>",
+        "id": 72195,
+        "sender_full_name": "Joy Chen",
+        "timestamp": 1480718402
+    },
+    {
+        "content": "<p>Hahaha it doesn´t surprise me Joy, in Spanish we have a lot of colloquialisms so it might be hard understanding some words.</p>",
+        "id": 72199,
+        "sender_full_name": "Juan Verhook (aka Juanvulcano)",
+        "timestamp": 1480718715
+    },
+    {
+        "content": "<p>Testing :) </p>",
+        "id": 72329,
+        "sender_full_name": "Juan Verhook (aka Juanvulcano)",
+        "timestamp": 1480722728
+    },
+    {
+        "content": "<p>Hey, I'm going to be starting on the task to create a command+f hotkey. Would control+f be fine, as it's usually the default search hotkey?</p>",
+        "id": 72380,
+        "sender_full_name": "『Ａlex🍕Huang』",
+        "timestamp": 1480726585
+    },
+    {
+        "content": "<p>It should be control-f on Windows and Linux, and command-f on Mac.</p>",
+        "id": 72641,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480737849
+    },
+    {
+        "content": "<p>Whoops. Moving to <a class=\"stream\" data-stream-id=\"74\" href=\"/#narrow/stream/GCI%20general\">#GCI general</a> </p>",
+        "id": 72644,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480737896
+    },
+    {
+        "content": "<p>Hello everyone. My name is Shawn and I'm from India. This is my second GCI. I wasn't actually planning on participating this year since I'm the 12th grade this year and I have a lot of exams to study for. But I was just looking through the organizations list and found Zulip a pretty amazing organization. I won't be able to do a lot of tasks but I want to do  the best work I can. </p>",
+        "id": 72668,
+        "sender_full_name": "Shawn Pereira",
+        "timestamp": 1480741512
+    },
+    {
+        "content": "<p>Welcome <span class=\"user-mention\" data-user-email=\"shawnpereira1999@gmail.com\">@Shawn Pereira</span> !</p>",
+        "id": 72670,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480742606
+    },
+    {
+        "content": "<p>Glad to have you with us :)</p>",
+        "id": 72671,
+        "sender_full_name": "Kevin Riggle",
+        "timestamp": 1480742612
+    },
+    {
+        "content": "<p>I'm Sumana Harihareswara, a contractor who works on Zulip in community management, writing, and mentorship. I was away from Zulip work for much of the past few weeks, and you might see me around as a GCI mentor. I've written and spoken a lot about how to get better at contributing to open source projects -- a blog post I wrote that you might benefit from is <a href=\"https://www.harihareswara.net/sumana/2016/10/12/0\" target=\"_blank\" title=\"https://www.harihareswara.net/sumana/2016/10/12/0\">https://www.harihareswara.net/sumana/2016/10/12/0</a> .</p>",
+        "id": 86426,
+        "sender_full_name": "Sumana Harihareswara",
+        "timestamp": 1481322739
+    },
+    {
+        "content": "<p>Hello, I'm Patrick (yes my username is misleading) and I live in Australia. This is my second GCI and I have decided to participate this year because I love Open Source! Although I'm a little late, I'm looking forward to working with Zulip this year. (And if I accidentally say 'Tulip' in place of 'Zulip', you can blame my autocorrect)</p>",
+        "id": 88871,
+        "sender_full_name": "Patrick Grave",
+        "timestamp": 1481510139
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"p.grave@icloud.com\">@JefftheBest</span> you probably want to use your real name because it's easier for a mentor to help you and get your tasks approved.</p>",
+        "id": 88872,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1481510201
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"p.grave@icloud.com\">@JefftheBest</span> another participant from down under :O <span class=\"user-mention\" data-user-email=\"o'callahanb@wsc.school.nz\">@Bickio O'Callahan</span> is from New Zealand</p>",
+        "id": 88873,
+        "sender_full_name": "Joy Chen",
+        "timestamp": 1481510502
+    },
+    {
+        "content": "<p>Yeah! Welcome. I think that makes 3 of us from the southern hemisphere! <span class=\"user-mention\" data-user-email=\"rafidteam@gmail.com\">@Rafid Aslam</span> is from indonesia.<br>\nYaay!</p>",
+        "id": 88875,
+        "sender_full_name": "Bickio O'Callahan",
+        "timestamp": 1481510636
+    },
+    {
+        "content": "<p>Welcome to Zulip! <span class=\"user-mention\" data-user-email=\"p.grave@icloud.com\">@JefftheBest</span> </p>",
+        "id": 88876,
+        "sender_full_name": "Niels Terwiesch",
+        "timestamp": 1481510851
+    },
+    {
+        "content": "<p>Haha nice, welcome <span class=\"user-mention\" data-user-email=\"p.grave@icloud.com\">@JefftheBest</span>  !</p>",
+        "id": 88885,
+        "sender_full_name": "Rafid Aslam",
+        "timestamp": 1481513739
+    },
+    {
+        "content": "<p>Hi, I'm Bernice and I'm from Texas; this is my first ever GCI and I have no idea what's going on XD. I have quite a bit of interest in programming, although I'd still call myself a beginner, since most of my coding lies in websites like Codecademy, Code Avengers, etc, so I'm pretty intimidated by most of the GCI tasks that I've seen.</p>",
+        "id": 103213,
+        "sender_full_name": "Bernice Chen",
+        "timestamp": 1482445246
+    },
+    {
+        "content": "<p>Welcome GCI students!  Feel free to introduce yourselves here (it was a nice tradition that <span class=\"user-mention\" data-user-email=\"zbreit18@gmail.com\" data-user-id=\"785\">@Zach Breit</span> started last year)!</p>",
+        "id": 344505,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1511889658
+    },
+    {
+        "content": "<p>Hey all ! I am Sivagiri <span class=\"emoji emoji-1f600\" title=\"grinning\">:grinning:</span> ! Excited to be participating in GCI . Hoping this will be a nice learning and a rewarding experience !</p>",
+        "id": 344512,
+        "sender_full_name": "Sivagiri Visakan",
+        "timestamp": 1511889893
+    },
+    {
+        "content": "<p>Welcome <span class=\"user-mention\" data-user-email=\"siva.g.visakan@gmail.com\" data-user-id=\"3893\">@Sivagiri Visakan</span>!</p>",
+        "id": 344515,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1511889948
+    },
+    {
+        "content": "<p>Thank you <span class=\"user-mention\" data-user-email=\"robhoenig@gmail.com\" data-user-id=\"801\">@Robert Hönig</span></p>",
+        "id": 344640,
+        "sender_full_name": "Sivagiri Visakan",
+        "timestamp": 1511891547
+    },
+    {
+        "content": "<p>Hi! <span class=\"emoji emoji-1f44b\" title=\"wave\">:wave:</span> <span class=\"user-mention\" data-user-email=\"siva.g.visakan@gmail.com\" data-user-id=\"3893\">@Sivagiri Visakan</span></p>",
+        "id": 344649,
+        "sender_full_name": "Caroline Dikibo",
+        "timestamp": 1511891603
+    },
+    {
+        "content": "<p>I'm Robert, and I'll be working as a GCI mentor. I'm from Germany, currently living in the Czech Republic (UTC+1). Really looking forward to this year's GCI and working with you all :)</p>",
+        "id": 345368,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1511903715
+    },
+    {
+        "content": "<p>Hi everyone! I'm Peter, currently living in Peru (UTC-5), planning to study compsci in college, and excited to be contributing to open source <span class=\"emoji emoji-1f913\" title=\"nerd face\">:nerd_face:</span></p>",
+        "id": 349139,
+        "sender_full_name": "Peter Tone",
+        "timestamp": 1512017780
+    },
+    {
+        "content": "<p>Welcome Peter! Hope you enjoy GCI :).</p>",
+        "id": 349142,
+        "sender_full_name": "Umair Khan",
+        "timestamp": 1512017870
+    },
+    {
+        "content": "<p>Hello everyone! My name is Xavier, and I live in Sydney, Australia (UTC+11). I'm really excited to participate in GCI</p>",
+        "id": 349436,
+        "sender_full_name": "Xavier Cooney",
+        "timestamp": 1512032678
+    },
+    {
+        "content": "<p>Welcome <span class=\"user-mention\" data-user-email=\"xavier.cooney03@gmail.com\" data-user-id=\"4136\">@Xavier Cooney</span>! Nice to have someone from Down Under :)</p>",
+        "id": 349439,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1512032797
+    },
+    {
+        "content": "<p>Hello! I'm Andrea, a mentor from California. I was a mentor last year too, this time I'll be dropping in to lend a hand along with the regularly scheduled mentors (lots of traveling happening right now.) I'm excited to see everyone's work this year!</p>",
+        "id": 350164,
+        "sender_full_name": "Andrea  Longo",
+        "timestamp": 1512055682
+    },
+    {
+        "content": "<p>Hello Peter, I am Abijith  I am a student too! :)</p>",
+        "id": 350349,
+        "sender_full_name": "Abijith",
+        "timestamp": 1512060893
+    },
+    {
+        "content": "<p>Hello everybody<br>\nI'm Alexander, I'm student from Russia</p>",
+        "id": 350873,
+        "sender_full_name": "Aleksandr",
+        "timestamp": 1512066461
+    },
+    {
+        "content": "<p>Hey Alexander! I'm from India. :)</p>",
+        "id": 350876,
+        "sender_full_name": "Abijith",
+        "timestamp": 1512066513
+    },
+    {
+        "content": "<p>Im too russia student)<br>\nКак дела?</p>",
+        "id": 350895,
+        "sender_full_name": "Kirill Kudryavtsev",
+        "timestamp": 1512066819
+    },
+    {
+        "content": "<p>Fine)<br>\nI think we need to communicate in English so that other people can understand</p>",
+        "id": 350915,
+        "sender_full_name": "Aleksandr",
+        "timestamp": 1512067213
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"hatollint@gmail.com\" data-user-id=\"4276\">@Kirill Kudryavtsev</span> <span class=\"user-mention\" data-user-email=\"alexander.smehnov@gmail.com\" data-user-id=\"4275\">@Aleksandr</span> welcome!  My wife was born in Russia, so I've been slowly learning Russian :).</p>",
+        "id": 350942,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1512067600
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"alexander.smehnov@gmail.com\" data-user-id=\"4275\">@Aleksandr</span> <span class=\"user-mention\" data-user-email=\"hatollint@gmail.com\" data-user-id=\"4276\">@Kirill Kudryavtsev</span> Hi guys! I’m a mentor, and I’m from Russia too! Welcome!</p>",
+        "id": 350947,
+        "sender_full_name": "Alena Volkova",
+        "timestamp": 1512067615
+    },
+    {
+        "content": "<p>Zulip's Russian translation is about half-complete, so that could be a fun area to get involved in during GCI (I think we have a few tasks for it)</p>",
+        "id": 350952,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1512067646
+    },
+    {
+        "content": "<p>I also thought so and applied for <a href=\"http://transifex.com\" target=\"_blank\" title=\"http://transifex.com\">transifex.com</a></p>",
+        "id": 350972,
+        "sender_full_name": "Aleksandr",
+        "timestamp": 1512067905
+    },
+    {
+        "content": "<p>Hi! I'm Joshua, a mentor from California. I was a Google Code-in Grand Winner last year (with another organization). Looking forward to help and see everyone's work!</p>",
+        "id": 351381,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1512076424
+    },
+    {
+        "content": "<p>Hi everyone! I am Yash from India currently studying in 10th standard. I have heard a lot about Zulip from by brother and would like to contribute something to it! Being in class 10, I won't be able to be super active but sure I can learn a thing or two in the free time I get!</p>",
+        "id": 353129,
+        "sender_full_name": "Yashvardhan Sharma",
+        "timestamp": 1512129967
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"humantech2002@gmail.com\" data-user-id=\"4302\">@Yashvardhan Sharma</span> Hi there! Welcome to Zulip!</p>",
+        "id": 353131,
+        "sender_full_name": "Alena Volkova",
+        "timestamp": 1512130085
+    },
+    {
+        "content": "<p>Hi! My name is Chaitanya. I'm in grade 12 and only recently introduced to programming!</p>",
+        "id": 355717,
+        "sender_full_name": "Chaitanya Baranwal",
+        "timestamp": 1512207311
+    },
+    {
+        "content": "<p>Welcome <span class=\"user-mention\" data-user-email=\"chaitanyabaranwal@gmail.com\" data-user-id=\"4323\">@Chaitanya Baranwal</span>!</p>",
+        "id": 355718,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1512207361
+    },
+    {
+        "content": "<p>Hi <span class=\"user-mention\" data-user-email=\"chaitanyabaranwal@gmail.com\" data-user-id=\"4323\">@Chaitanya Baranwal</span></p>",
+        "id": 355722,
+        "sender_full_name": "Abijith",
+        "timestamp": 1512207431
+    },
+    {
+        "content": "<p>Hi, <span class=\"user-mention\" data-user-email=\"chaitanyabaranwal@gmail.com\" data-user-id=\"4323\">@Chaitanya Baranwal</span> Welcome to Zulip!</p>",
+        "id": 355738,
+        "sender_full_name": "Balaji",
+        "timestamp": 1512207910
+    },
+    {
+        "content": "<p>Hello, Everyone my name is John Kongtcheu and it's nice to meet everyone</p>",
+        "id": 358763,
+        "sender_full_name": "John Kongtcheu",
+        "timestamp": 1512287493
+    },
+    {
+        "content": "<p>Hi <span class=\"user-mention\" data-user-email=\"johnkongtcheu@gmail.com\" data-user-id=\"4018\">@John Kongtcheu</span>. Welcome to zulip <img alt=\":zulip:\" class=\"emoji\" src=\"/static/generated/emoji/images/emoji/unicode/zulip.png\" title=\"zulip\"> !</p>",
+        "id": 358766,
+        "sender_full_name": "Balaji",
+        "timestamp": 1512287628
+    },
+    {
+        "content": "<p>Hello! My name is Arnav Mahajan and I am in 10th Grade. I 'm really interested in helping out this awesome open source project :)</p>",
+        "id": 360850,
+        "sender_full_name": "Arnav Mahajan",
+        "timestamp": 1512343548
+    },
+    {
+        "content": "<p>Hello everyone! My name is Kai, and I live in Vancouver, Canada. Excited to be here!</p>",
+        "id": 360932,
+        "sender_full_name": "Kai Chen",
+        "timestamp": 1512356242
+    },
+    {
+        "content": "<p>Hey! Welcome to Zulip! <span class=\"emoji emoji-1f389\" title=\"tada\">:tada:</span></p>",
+        "id": 360956,
+        "sender_full_name": "Rohitt Vashishtha",
+        "timestamp": 1512357589
+    },
+    {
+        "content": "<blockquote>\n<p>Hello, Everyone my name is John Kongtcheu and it's nice to meet everyone</p>\n</blockquote>\n<p>Hello John!</p>",
+        "id": 361886,
+        "sender_full_name": "Abijith",
+        "timestamp": 1512393668
+    },
+    {
+        "content": "<p>Hello everyone! My name is Cacey and I'm an 11th grader from New Jersey. Can't wait to start! :)</p>",
+        "id": 363340,
+        "sender_full_name": "Cacey O",
+        "timestamp": 1512425927
+    },
+    {
+        "content": "<p>Hi <span class=\"user-mention\" data-user-email=\"pianodude919@yahoo.com\" data-user-id=\"4375\">@Cacey O</span> , welcome to Zulip!</p>",
+        "id": 363343,
+        "sender_full_name": "Tommy Ip",
+        "timestamp": 1512425953
+    },
+    {
+        "content": "<p>Welcome to Zulip <span class=\"emoji emoji-270c\" title=\"victory hand\">:victory_hand:</span>️</p>",
+        "id": 364020,
+        "sender_full_name": "Anirudh Jain",
+        "timestamp": 1512448903
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>GitHub has the ability to show all the commits done by a particular author.  You basically go to the commit history and click on a person's name.  You can do this to find your own commits!  I'll use <span class=\"user-mention\" data-user-email=\"cynthialin1004@gmail.com\">@Cynthia Lin</span> as an example:</p>\n<p><a href=\"https://github.com/zulip/zulip/commits/master?author=synicalsyntax\" target=\"_blank\" title=\"https://github.com/zulip/zulip/commits/master?author=synicalsyntax\">https://github.com/zulip/zulip/commits/master?author=synicalsyntax</a></p>\n<p>In the upcoming years, when you're applying to universities or internships, remember this!  You can link to all the commits you made to the Zulip project and talk about your overall contributions.</p>",
+        "id": 102312,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1482420848
+    }
+]

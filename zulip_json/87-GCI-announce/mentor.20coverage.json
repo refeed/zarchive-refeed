@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>We are going to be without mentor coverage for about the next five hours, so please be patient until then and when the next mentor comes on.  In general, it's getting really into the holiday season for many of our mentors, so things are gonna slow down a bit over the next week or so.  During the slow time, it's a really good idea to spend some time reading code, learning more about the tools you're using (git, editors, etc.), and just generally reflecting about the process so far.</p>",
+        "id": 101850,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1482375067
+    },
+    {
+        "content": "<p><img alt=\":thumbs_up:\" class=\"emoji\" src=\"/static/third/gemoji/images/emoji/thumbs_up.png\" title=\":thumbs_up:\"> thanks for all your help and persistence Steve.</p>",
+        "id": 101851,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1482375101
+    },
+    {
+        "content": "<p>You're welcome. :)</p>",
+        "id": 101853,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1482375163
+    },
+    {
+        "content": "<p>Hey folks, I am done with mentoring for today, and the next person's shift doesn't start for five hours, so please expect a little delay in getting tasks approved and PRs reviewed until then.  Thanks!</p>",
+        "id": 103253,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1482447620
+    },
+    {
+        "content": "<p>Thanks for all your help</p>",
+        "id": 103258,
+        "sender_full_name": "Cynthia Lin",
+        "timestamp": 1482447734
+    },
+    {
+        "content": "<p>I am going offline for a while.  This weekend is gonna be really slow in terms of mentor coverage, because it's a holiday weekend for many folks.  Take this weekend as an opportunity to do lots of reading!  It will make you a better open source contributor.  You can read the Zulip code, or you can find interesting stuff to read on the net.  Good luck!</p>",
+        "id": 105042,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1482608116
+    },
+    {
+        "content": "<p>Hi folks, I will be online for a few hours today, but I am on vacation and mostly just trying to stay current on what's going on.  I may respond to a few messages directed my way  today, but if I don't respond to you, please don't be offended and please wait for somebody else to help you.</p>",
+        "id": 108448,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1482938395
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"*\">@all</span>  A lot of Python programmers and other open source people get together at Python conventions every year to learn from each other and have fun. Zulip will have an in-person event at <a href=\"https://us.pycon.org/2017/\" target=\"_blank\" title=\"https://us.pycon.org/2017/\">PyCon North America</a> in Portland, Oregon, May 22-25, 2017. Every year at PyCon North America, there are \"sprints\" where people from open source projects work together in person. We plan on having a Zulip sprint at PyCon next year, just like we did <a href=\"https://us.pycon.org/2016/community/sprints/\" target=\"_blank\" title=\"https://us.pycon.org/2016/community/sprints/\">last year</a>. We hope you'll join us. It's a great opportunity to meet us in person, hack and write with us, and learn from each other.</p>\n<p>If you want to come but you can't afford the cost of travel, lodging, registration, and/or childcare, please apply for financial aid soon:</p>\n<p><a href=\"https://us.pycon.org/2017/financial-assistance/\" target=\"_blank\" title=\"https://us.pycon.org/2017/financial-assistance/\">https://us.pycon.org/2017/financial-assistance/</a></p>\n<p>The deadline for applying is February 15, 2017.</p>\n<blockquote>\n<p>We actively encourage people to apply for financial aid.</p>\n<p>The PSF welcomes and encourages applications from students.</p>\n</blockquote>\n<p>Yes, even though you are a teenager, you can apply for financial aid. I emailed PyCon to ask about teenagers 13-17 years old, and PyCon said:</p>\n<blockquote>\n<p>Anyone under the age of 16 should have a guardian with them. If they are 16 or 17, we would request a consent form signed by their parents.</p>\n<p>Feel free to have them apply for financial aid.</p>\n</blockquote>\n<p>Zulip is not in charge of this financial aid stuff and I have no power to grant it -- the money comes from the Python Software Foundation. If you have questions about it, check out <a href=\"https://us.pycon.org/2017/financial-assistance/faq/\" target=\"_blank\" title=\"https://us.pycon.org/2017/financial-assistance/faq/\">https://us.pycon.org/2017/financial-assistance/faq/</a> .</p>",
+        "id": 86430,
+        "sender_full_name": "Sumana Harihareswara",
+        "timestamp": 1481322926
+    },
+    {
+        "content": "<p>+1 for PyCon! I'll be there and I look forward to meeting other Zulip contributors, including GCI participants.</p>",
+        "id": 86433,
+        "sender_full_name": "Christie Koehler",
+        "timestamp": 1481323020
+    },
+    {
+        "content": "<p>Also look at <a href=\"http://www.pycon.org/\" target=\"_blank\" title=\"http://www.pycon.org/\">http://www.pycon.org/</a> to see when there will be a PyCon or Python meetup in your area! I see Delhi &amp; Bangalore coming up soon. (And of course you are free to organize your own local meetups wherever you are.)</p>",
+        "id": 86437,
+        "sender_full_name": "Sumana Harihareswara",
+        "timestamp": 1481323139
+    }
+]

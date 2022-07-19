@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>I've noticed that frequently students are closing pull requests and creating new ones when they want to push an updated version of there changes.  With Git and GitHub, you should essentially never need to do this.  Further, doing so makes more work for the maintainers and slows the review of your work, since we then need to look at the old PR to see what the comments you were attempting to resolve in making revisions to your pull request.  Instead, you should always being using a git force-push to update the  remote branch the PR was based off of.  If you decide to restart a local branch as part of making your revisions, that's fine, you just need to use the more complicated <code>git push origin +localbranchname:remotebranchname</code> to push your changes.  The maintainers of any open source project you contribute to will appreciate it!</p>",
+        "id": 79487,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1480974810
+    },
+    {
+        "content": "<p>I've been suggesting this, which I think is consistent with our docs:</p>\n<div class=\"codehilite\"><pre><span></span>git push origin +my-feature-branch-name\n</pre></div>",
+        "id": 79509,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1480975057
+    },
+    {
+        "content": "<p>yes, that doesn't work if they created a new feature branch name locally for their revisions, however</p>",
+        "id": 79512,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1480975104
+    },
+    {
+        "content": "<p>So the more advanced syntax can be necessary in some cases</p>",
+        "id": 79513,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1480975115
+    }
+]

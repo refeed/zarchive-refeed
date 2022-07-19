@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>FYI Digital Ocean is having some issues and no new remove dev instances can be created right now: <a href=\"https://status.digitalocean.com/\" target=\"_blank\" title=\"https://status.digitalocean.com/\">https://status.digitalocean.com/#</a></p>",
+        "id": 69412,
+        "sender_full_name": "Christie Koehler",
+        "timestamp": 1480627087
+    },
+    {
+        "content": "<p>I will keep an eye on things. Hopefully they will get the issue resolve today.</p>",
+        "id": 69415,
+        "sender_full_name": "Christie Koehler",
+        "timestamp": 1480627106
+    },
+    {
+        "content": "<p>Existing remote dev instances should continue to work just fine. ;)</p>",
+        "id": 69418,
+        "sender_full_name": "Christie Koehler",
+        "timestamp": 1480627139
+    },
+    {
+        "content": "<p>Digital Ocean issues resolved! We can create remote dev instances for students again.</p>",
+        "id": 69875,
+        "sender_full_name": "Christie Koehler",
+        "timestamp": 1480638534
+    }
+]

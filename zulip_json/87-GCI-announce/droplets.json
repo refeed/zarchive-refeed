@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>Thanks everyone for an amazing GCI! There is still a lot to be done, and we hope many of you continue showing up in chat and in our PR review queues in the upcoming weeks, months, and years :). </p>\n<p>That being said, by default we'll be decommissioning all the droplets tomorrow or the day after. We still have the ability to keep a good number running, so if you're still using yours, please let me know! When you let me know, also let me know if you're planning on using it for O(week) to get some last PRs merged (in which case I'll ping you again next week), or whether you're thinking of using it for longer. </p>",
+        "id": 131762,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1484698509
+    },
+    {
+        "content": "<p>Could you keep my droplet open for like 5 days more?</p>",
+        "id": 131920,
+        "sender_full_name": "Sampriti Panda",
+        "timestamp": 1484754898
+    },
+    {
+        "content": "<p>I'm using my droplet for other testing, at least until I get the Swagger changes merged. </p>",
+        "id": 131935,
+        "sender_full_name": "Andrea  Longo",
+        "timestamp": 1484758390
+    },
+    {
+        "content": "<p>We can definitely keep them up for folks who are still using them</p>",
+        "id": 132164,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1484767348
+    },
+    {
+        "content": "<p>Just make sure Rishi knows you are :)</p>",
+        "id": 132166,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1484767358
+    },
+    {
+        "content": "<p>Yeah, one of the hazards of me using a site where everybody goes by given name. The droplet is name is feorlen.</p>",
+        "id": 132170,
+        "sender_full_name": "Andrea  Longo",
+        "timestamp": 1484767605
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"sampdingo@hotmail.com\">@Sampriti Panda</span> <span class=\"user-mention\" data-user-email=\"zulip@feorlen.org\">@Andrea  Longo</span> yup!</p>",
+        "id": 132252,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1484773047
+    },
+    {
+        "content": "<p>Thanks!</p>",
+        "id": 132253,
+        "sender_full_name": "Sampriti Panda",
+        "timestamp": 1484773194
+    },
+    {
+        "content": "<p>Got some questions in PMs -- to clarify: \"droplets\" refers to the digital ocean virtual machines, that you access at something like [githubusername].zulipdev.org. If you are accessing the shakespeare-filled development environment at localhost:9991, you are probably not using a droplet.</p>",
+        "id": 132443,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1484786563
+    },
+    {
+        "content": "<p>Is \"droplet\" a DO term?</p>",
+        "id": 132444,
+        "sender_full_name": "Alex Dehnert",
+        "timestamp": 1484786607
+    },
+    {
+        "content": "<p>yup</p>",
+        "id": 132445,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1484786681
+    },
+    {
+        "content": "<p>The shakespeare characters can live on a remote droplet, too.</p>",
+        "id": 132446,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1484787654
+    }
+]

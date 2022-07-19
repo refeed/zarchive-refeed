@@ -1,0 +1,212 @@
+[
+    {
+        "content": "<p>If you fetch the latest copy of master, you can now run a tool called <code>./tools/diagnose</code> to get basic info about your dev environment.  Please try it out!</p>",
+        "id": 115086,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1483545152
+    },
+    {
+        "content": "<p>Running <code>./tools/idagnose</code> throws an error for me:</p>\n<div class=\"codehilite\"><pre><span></span>(zulip-venv) ~/zulip (master)$ ./tools/diagnose\nPython 2.7.12\n/home/zulipdev/zulip\nLinux-4.4.0-47-generic-x86_64-with-Ubuntu-16.04-xenial\nDjango version: 1.10.4\nlatest version provisioned: 3.2\ndesired version: 3.2\nnode version:\nv6.6.0\nTraceback (most recent call last):\n  File &quot;./tools/diagnose&quot;, line 76, in &lt;module&gt;\n    @run\n  File &quot;./tools/diagnose&quot;, line 21, in run\n    rc = check_func()\n  File &quot;./tools/diagnose&quot;, line 84, in test_models\n    print(&#39;Num realms: &#39;, Realm.objects.count())\n  File &quot;/srv/zulip-venv/local/lib/python2.7/site-packages/django/db/models/manager.py&quot;, line 85, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n  File &quot;/srv/zulip-venv/local/lib/python2.7/site-packages/django/db/models/query.py&quot;, line 369, in count\n    return self.query.get_count(using=self.db)\n  File &quot;/srv/zulip-venv/local/lib/python2.7/site-packages/django/db/models/sql/query.py&quot;, line 476, in get_count\n    number = obj.get_aggregation(using, [&#39;__count&#39;])[&#39;__count&#39;]\n  File &quot;/srv/zulip-venv/local/lib/python2.7/site-packages/django/db/models/sql/query.py&quot;, line 457, in get_aggregation\n    result = compiler.execute_sql(SINGLE)\n  File &quot;/srv/zulip-venv/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py&quot;, line 835, in execute_sql\n    cursor.execute(sql, params)\n  File &quot;/srv/zulip-venv/local/lib/python2.7/site-packages/django/db/backends/utils.py&quot;, line 79, in execute\n    return super(CursorDebugWrapper, self).execute(sql, params)\n  File &quot;/srv/zulip-venv/local/lib/python2.7/site-packages/django/db/backends/utils.py&quot;, line 64, in execute\n    return self.cursor.execute(sql, params)\n  File &quot;/srv/zulip-venv/local/lib/python2.7/site-packages/django/db/utils.py&quot;, line 94, in __exit__\n    six.reraise(dj_exc_type, dj_exc_value, traceback)\n  File &quot;/srv/zulip-venv/local/lib/python2.7/site-packages/django/db/backends/utils.py&quot;, line 64, in execute\n    return self.cursor.execute(sql, params)\n  File &quot;./zerver/lib/db.py&quot;, line 32, in execute\n    return wrapper_execute(self, super(TimeTrackingCursor, self).execute, query, vars)\n  File &quot;./zerver/lib/db.py&quot;, line 19, in wrapper_execute\n    return action(sql, params)\ndjango.db.utils.ProgrammingError: relation &quot;zerver_realm&quot; does not exist\nLINE 1: SELECT COUNT(*) AS &quot;__count&quot; FROM &quot;zerver_realm&quot;\n                                          ^\n</pre></div>",
+        "id": 115098,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1483545961
+    },
+    {
+        "content": "<p>I got this error:</p>\n<div class=\"codehilite\"><pre><span></span>Django version: 1.10.4\nlatest version provisioned: 3.2\ndesired version: 3.2\nnode version:\nv6.6.0\n... Traceback\ndjango.db.utils.OperationalError: FATAL:  password authentication failed for user &quot;zulip_test&quot;\nFATAL:  password authentication failed for user &quot;zulip_test&quot;\n</pre></div>",
+        "id": 115099,
+        "sender_full_name": "Tommy Ip",
+        "timestamp": 1483546125
+    },
+    {
+        "content": "<p>Diagnosing the diagnose script, hahahahaha</p>",
+        "id": 115100,
+        "sender_full_name": "Yago González",
+        "timestamp": 1483546248
+    },
+    {
+        "content": "<p>looking into Robert's error first</p>",
+        "id": 115112,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1483546929
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"robhoenig@gmail.com\">@Robert Hönig</span> <span class=\"user-mention\" data-user-email=\"hkmp7tommy@gmail.com\">@Tommy Ip</span> I assume you're both running in your normal VM environments?</p>",
+        "id": 115115,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1483547011
+    },
+    {
+        "content": "<p>Yeah in vagrant (locally)</p>",
+        "id": 115116,
+        "sender_full_name": "Tommy Ip",
+        "timestamp": 1483547032
+    },
+    {
+        "content": "<p>Yup, I am using the ocean droplet.</p>",
+        "id": 115118,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1483547039
+    },
+    {
+        "content": "<p>It's interesting that you're both getting Django errors.</p>",
+        "id": 115120,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1483547169
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"robhoenig@gmail.com\">@Robert Hönig</span> <span class=\"user-mention\" data-user-email=\"hkmp7tommy@gmail.com\">@Tommy Ip</span> Can you try </p>\n<div class=\"codehilite\"><pre><span></span>./tools/do-destroy-rebuild-database &amp;&amp; ./tools/diagnose\n</pre></div>",
+        "id": 115126,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1483547285
+    },
+    {
+        "content": "<p>Just ran it, the exact same error is thrown for me.</p>",
+        "id": 115127,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1483547350
+    },
+    {
+        "content": "<p>Same error</p>",
+        "id": 115128,
+        "sender_full_name": "Tommy Ip",
+        "timestamp": 1483547397
+    },
+    {
+        "content": "<p>Hmmm...let me try something else...</p>",
+        "id": 115129,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1483547458
+    },
+    {
+        "content": "<div class=\"codehilite\"><pre><span></span>(zulip-venv)vagrant@vagrant-base-trusty-amd64:/srv/zulip$ ./manage.py dbshell\npsql (9.3.15)\nSSL connection (cipher: DHE-RSA-AES256-GCM-SHA384, bits: 256)\nType &quot;help&quot; for help.\n\nzulip=&gt; select * from zerver_realm limit 1;\n</pre></div>",
+        "id": 115131,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1483547492
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"yagogonzalezg@gmail.com\">@Yago González</span> Do you have a moment to try this script out?</p>",
+        "id": 115132,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1483547537
+    },
+    {
+        "content": "<p>I already did, it works fine for me</p>",
+        "id": 115133,
+        "sender_full_name": "Yago González",
+        "timestamp": 1483547552
+    },
+    {
+        "content": "<p>Sorry, should have reported it, hehe</p>",
+        "id": 115134,
+        "sender_full_name": "Yago González",
+        "timestamp": 1483547576
+    },
+    {
+        "content": "<div class=\"codehilite\"><pre><span></span>(zulip-venv) ~/zulip (master)$ ./tools/diagnose \nPython 2.7.12\n/home/zulipdev/zulip\nLinux-4.4.0-47-generic-x86_64-with-Ubuntu-16.04-xenial\nDjango version: 1.10.4\nlatest version provisioned: 3.2\ndesired version: 3.2\nnode version:\nv6.6.0\nNum realms:  3\nNum users:  21\npy2_dev.txt venv sha:  95248d22260eb86f80ab429290a52191bfa39f58\npy3_dev.txt venv sha:  f9b93820bcb446cc32a9b1aaeabcb4463f8f06f3\n\nTesting whether migrations are consistent with models\nNo changes detected\nSuccess!  Migrations are consistent with models.\n</pre></div>",
+        "id": 115135,
+        "sender_full_name": "Yago González",
+        "timestamp": 1483547594
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"robhoenig@gmail.com\">@Robert Hönig</span> <span class=\"user-mention\" data-user-email=\"hkmp7tommy@gmail.com\">@Tommy Ip</span> Are you able to get in the dbshell, as I showed above?</p>",
+        "id": 115136,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1483547601
+    },
+    {
+        "content": "<p>yes</p>",
+        "id": 115137,
+        "sender_full_name": "Tommy Ip",
+        "timestamp": 1483547640
+    },
+    {
+        "content": "<p>Let me know if I can do anything to help!</p>",
+        "id": 115138,
+        "sender_full_name": "Yago González",
+        "timestamp": 1483547646
+    },
+    {
+        "content": "<p>Yes, it returns a normal SQL row for me</p>",
+        "id": 115139,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1483547646
+    },
+    {
+        "content": "<p>My guess is that these lines of code are somehow brittle and only work for some configurations:</p>\n<div class=\"codehilite\"><pre><span></span> <span class=\"mi\">79</span>     <span class=\"n\">settings_module</span> <span class=\"o\">=</span> <span class=\"s2\">&quot;zproject.test_settings&quot;</span>\n <span class=\"mi\">80</span>     <span class=\"n\">os</span><span class=\"o\">.</span><span class=\"n\">environ</span><span class=\"p\">[</span><span class=\"s1\">&#39;DJANGO_SETTINGS_MODULE&#39;</span><span class=\"p\">]</span> <span class=\"o\">=</span> <span class=\"n\">settings_module</span>\n <span class=\"mi\">81</span>     <span class=\"kn\">import</span> <span class=\"nn\">django</span>\n <span class=\"mi\">82</span>     <span class=\"n\">django</span><span class=\"o\">.</span><span class=\"n\">setup</span><span class=\"p\">()</span>\n</pre></div>",
+        "id": 115141,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1483547736
+    },
+    {
+        "content": "<p>Robert/Tommy, does it work if you say <code>zproject.settings</code> instead of <code>zproject.test_settings</code>?</p>",
+        "id": 115150,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1483548207
+    },
+    {
+        "content": "<p>(on line 79)</p>",
+        "id": 115151,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1483548233
+    },
+    {
+        "content": "<p>Ha, that's it! Worked <span class=\"user-mention\" data-user-email=\"showell30@yahoo.com\">@Steve Howell</span> </p>",
+        "id": 115153,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1483548355
+    },
+    {
+        "content": "<div class=\"codehilite\"><pre><span></span>Python 2.7.12\n/home/zulipdev/zulip\nLinux-4.4.0-47-generic-x86_64-with-Ubuntu-16.04-xenial\nDjango version: 1.10.4\nlatest version provisioned: 3.2\ndesired version: 3.2\nnode version:\nv6.6.0\nNum realms:  1\nNum users:  20\npy2_dev.txt venv sha:  95248d22260eb86f80ab429290a52191bfa39f58\npy3_dev.txt venv sha:  f9b93820bcb446cc32a9b1aaeabcb4463f8f06f3\n\nTesting whether migrations are consistent with models\nNo changes detected\nSuccess!  Migrations are consistent with models.\n</pre></div>",
+        "id": 115154,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1483548377
+    },
+    {
+        "content": "<p>Cool, I'll push that change.  I'm still curious why the test_settings fail.</p>",
+        "id": 115155,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1483548497
+    },
+    {
+        "content": "<p>Is <code>test_settings</code> an experimental <code>test</code> module?</p>",
+        "id": 115156,
+        "sender_full_name": "Robert Hönig",
+        "timestamp": 1483548527
+    },
+    {
+        "content": "<p>Please, let us know once you're done. I'll try again to see if it still works</p>",
+        "id": 115157,
+        "sender_full_name": "Yago González",
+        "timestamp": 1483548543
+    },
+    {
+        "content": "<p>Yeah it works</p>",
+        "id": 115158,
+        "sender_full_name": "Tommy Ip",
+        "timestamp": 1483548557
+    },
+    {
+        "content": "<p>test_settings is for running the automated tests</p>",
+        "id": 115160,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1483548628
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"tabbott@zulipchat.com\">@Tim Abbott</span> Do you have any theory on why using zproject.test_settings would fail only for certain users in this code?</p>\n<div class=\"codehilite\"><pre><span></span> <span class=\"mi\">77</span> <span class=\"k\">def</span> <span class=\"nf\">test_models</span><span class=\"p\">():</span>\n <span class=\"mi\">78</span>     <span class=\"c1\"># type: () -&gt; bool</span>\n <span class=\"mi\">79</span>     <span class=\"n\">settings_module</span> <span class=\"o\">=</span> <span class=\"s2\">&quot;zproject.settings&quot;</span>\n <span class=\"mi\">80</span>     <span class=\"n\">os</span><span class=\"o\">.</span><span class=\"n\">environ</span><span class=\"p\">[</span><span class=\"s1\">&#39;DJANGO_SETTINGS_MODULE&#39;</span><span class=\"p\">]</span> <span class=\"o\">=</span> <span class=\"n\">settings_module</span>\n <span class=\"mi\">81</span>     <span class=\"kn\">import</span> <span class=\"nn\">django</span>\n <span class=\"mi\">82</span>     <span class=\"n\">django</span><span class=\"o\">.</span><span class=\"n\">setup</span><span class=\"p\">()</span>\n <span class=\"mi\">83</span>     <span class=\"kn\">from</span> <span class=\"nn\">zerver.models</span> <span class=\"kn\">import</span> <span class=\"n\">UserProfile</span><span class=\"p\">,</span> <span class=\"n\">Realm</span>\n <span class=\"mi\">84</span>     <span class=\"k\">print</span><span class=\"p\">(</span><span class=\"s1\">&#39;Num realms: &#39;</span><span class=\"p\">,</span> <span class=\"n\">Realm</span><span class=\"o\">.</span><span class=\"n\">objects</span><span class=\"o\">.</span><span class=\"n\">count</span><span class=\"p\">())</span>\n <span class=\"mi\">85</span>     <span class=\"k\">print</span><span class=\"p\">(</span><span class=\"s1\">&#39;Num users: &#39;</span><span class=\"p\">,</span> <span class=\"n\">UserProfile</span><span class=\"o\">.</span><span class=\"n\">objects</span><span class=\"o\">.</span><span class=\"n\">count</span><span class=\"p\">())</span>\n <span class=\"mi\">86</span>     <span class=\"k\">return</span> <span class=\"bp\">True</span>\n</pre></div>",
+        "id": 115174,
+        "sender_full_name": "Steve Howell (showell)",
+        "timestamp": 1483548855
+    },
+    {
+        "content": "<p>hmm</p>",
+        "id": 115250,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1483549819
+    },
+    {
+        "content": "<p>I don't see a good explanation for why there'd be a problem with using <code>test_settings</code> there</p>",
+        "id": 115253,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1483549849
+    }
+]

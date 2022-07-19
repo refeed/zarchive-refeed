@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>We removed the \"Beginner\" tag from 4 mypy tasks that seem to have been neglected due to being beginner tasks</p>",
+        "id": 74879,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1480818552
+    },
+    {
+        "content": "<p>Well, we can't see them because they are \"Beginner\" tagged.</p>",
+        "id": 74886,
+        "sender_full_name": "Joshua Pan",
+        "timestamp": 1480818631
+    },
+    {
+        "content": "<p>Right, and can't claim them, etc.  Which is why we removed the tags :)</p>",
+        "id": 74890,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1480818665
+    }
+]

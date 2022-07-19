@@ -1,0 +1,108 @@
+<html>
+<head><meta charset="utf-8"><title>trailing whitespace · GCI announce · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/index.html">GCI announce</a></h2>
+<h3>Topic: <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/trailing.20whitespace.html">trailing whitespace</a></h3>
+
+<hr>
+
+<base href="chat.zulip.org">
+
+<head><link href="https://refeed.github.io/zarchive-refeed/style.css" rel="stylesheet"></head>
+
+<a name="97769"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/trailing%20whitespace/near/97769" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/trailing.20whitespace.html#97769">(Dec 19 2016 at 17:25)</a>:</h4>
+<p>One common error that we have been noticing in student submissions is that folks have trailing whitespace in their code or documents.  One thing you can do to prevent this is to run <code>./tools/lint-all</code> before pushing.  It usually takes about 10 to 20 seconds to run the linter, and it catches lots of different mistakes.</p>
+
+
+
+<a name="97877"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/trailing%20whitespace/near/97877" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Yago González <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/trailing.20whitespace.html#97877">(Dec 19 2016 at 18:43)</a>:</h4>
+<p><span class="user-mention" data-user-email="showell30@yahoo.com">@Steve Howell</span> I was surprised to see that <code>./tools/lint-all</code> doesn't report some errors that <code>./tools/lint-all --pep8</code> does report.</p>
+<p>Since the test suite checks both, not running both may cause problems in Travis CI.</p>
+
+
+
+<a name="97884"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/trailing%20whitespace/near/97884" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/trailing.20whitespace.html#97884">(Dec 19 2016 at 18:46)</a>:</h4>
+<p>Yeah, so some checks, like the --pep8 check, take a really long time, so we don't include them in <code>./tools/test-all</code>, but you can still run them locally if you are patient.</p>
+
+
+
+<a name="97885"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/trailing%20whitespace/near/97885" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Yago González <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/trailing.20whitespace.html#97885">(Dec 19 2016 at 18:47)</a>:</h4>
+<p>So... the proper procedure before pushing a PR would be running both, right?</p>
+
+
+
+<a name="97886"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/trailing%20whitespace/near/97886" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/trailing.20whitespace.html#97886">(Dec 19 2016 at 18:47)</a>:</h4>
+<div class="codehilite"><pre><span></span>$ cat tools/travis/backend 
+#!/bin/bash
+
+source tools/travis/activate-venv
+
+set -e
+set -x
+
+./tools/lint-all --pep8 # Include the slow and thus non-default pep8 linter check
+./tools/test-backend --coverage --no-verbose-coverage
+./tools/test-management
+./tools/test-migrations
+./tools/test-run-dev
+./tools/test-documentation
+# Some test suites disabled in CI for being flaky
+#./tools/test-queue-worker-reload
+</pre></div>
+
+
+
+<a name="97888"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/trailing%20whitespace/near/97888" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/trailing.20whitespace.html#97888">(Dec 19 2016 at 18:47)</a>:</h4>
+<p>Yeah, generally.</p>
+
+
+
+<a name="97889"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/trailing%20whitespace/near/97889" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Yago González <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/trailing.20whitespace.html#97889">(Dec 19 2016 at 18:48)</a>:</h4>
+<p>Right, thanks!</p>
+
+
+
+<a name="97890"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/trailing%20whitespace/near/97890" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/trailing.20whitespace.html#97890">(Dec 19 2016 at 18:48)</a>:</h4>
+<p>I mean, it's not the end of the world to let Travis catch these errors--it's part of what Travis is for--but you can proactively run stuff locally to avoid the long Travis turnaround.</p>
+
+
+
+<a name="97891"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/trailing%20whitespace/near/97891" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Yago González <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/trailing.20whitespace.html#97891">(Dec 19 2016 at 18:49)</a>:</h4>
+<p>Yeah, it's just to avoid having to wait for Travis. Since the builds queue is large, some tests may take hours to finish (like in my last PR, for instance)</p>
+
+
+
+<a name="97892"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/trailing%20whitespace/near/97892" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/trailing.20whitespace.html#97892">(Dec 19 2016 at 18:49)</a>:</h4>
+<p>Often, if I'm 95% confident my code is clean, I'll just submit it to Travis without running every single check, but then if Travis complains, I'll run specific commands before pushing again.</p>
+
+
+
+<a name="97893"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/trailing%20whitespace/near/97893" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Yago González <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/trailing.20whitespace.html#97893">(Dec 19 2016 at 18:49)</a>:</h4>
+<p>That's why I want to make sure as much as possible that all Travis tests will pass</p>
+
+
+
+<a name="97895"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/trailing%20whitespace/near/97895" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Yago González <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/trailing.20whitespace.html#97895">(Dec 19 2016 at 18:50)</a>:</h4>
+<p>For the moment I don't think I can be 95% confident about anything I code, hahahahaha</p>
+
+
+
+<a name="97899"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/trailing%20whitespace/near/97899" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/trailing.20whitespace.html#97899">(Dec 19 2016 at 18:52)</a>:</h4>
+<p>:)</p>
+
+
+
+<hr><p>Last updated: Jul 19 2022 at 08:22 UTC</p>
+</html>

@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>Hi <span class=\"user-mention\" data-user-email=\"*\">@all</span>, we'll be doing a cleanup of the current droplets (VMs) in the next day or so, to free up droplets that we think aren't being used. Based on a rough heuristic, we think the following droplets might be in use:<br>\n1Niels, AZtheAsian, TheMadCoder1, abhayKashyap03, actuallyatoaster, anirudhjain75, ausDensk, derAnfaenger, donovank17, fredfishgames, jQwotos, jasonlu7, jeffthebest1, juanvulcano, kaicode2, kenloquinte, kevv87, kingxbanana, lonerz, maydhak, muhammadbn, picapi, rafidaslam, rogersachan, sampritipanda, synicalsyntax, thermodynamicallyunfavored, wildwatz, xdizzaster, yagogg, zbreit18</p>\n<p>and the following are likely not in use:<br>\nBohJieQi, Liam-G, NoahCristino, PikarooBonzai, SrijanJha28, aaaaaaaaron, acps, aristochaotic, ben-klemp, bolt108, bulat22101, e-l-e-e, ecarr0, enhdless, eviltak, femnad, futuristicblanket, grave-w-grave, iandrewtz, ingridt123, ioanniskydonis, ishankschauhan, katm10, kmann10, koehlerwtf, luke-spademan, mikebarson, my-name-here, nikolaystanishev, nithinswarrier, nithishbn, nvs119, pyroman1ak, pysq, reallyly, sahilbansal17, sajarindider, simonnarang, sir17, skwerll, spacetime12, taliamaee, teamshifty31, terminalvelocit3, tonynater</p>\n<p>If you are using a droplet in the second list, or are no longer using a droplet in the first list, please PM me to let me know! </p>",
+        "id": 104408,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1482526483
+    }
+]

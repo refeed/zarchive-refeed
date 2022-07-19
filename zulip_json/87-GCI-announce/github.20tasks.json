@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Hi <span class=\"user-mention\" data-user-email=\"*\">@all</span>, if you have a merged (or soon to be merged) PR related to a github issue for which we didn't create the GCI task, please let me know so that I can create the GCI task for you! We'd like to take care of as much of the bookkeeping for this as we can over the weekend, so if you could send it to me (either reply here or send me a PM) in the next 24 hours that would be great. Note:</p>\n<ul>\n<li>As per GCI rules, this only applies to issues you worked on after GCI started (Nov 28)</li>\n<li>If you have a merged/nearly-merged PR not attached to a github issue or GCI task, send it over anyway.</li>\n</ul>\n<p>Thanks!</p>",
+        "id": 117865,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1483734477
+    },
+    {
+        "content": "<p>Someone brought up the question of non-PR contributions, like bug reports. How about just send me everything (that is not already attached to a GCI task), and the mentors will discuss and figure out what to do :).</p>",
+        "id": 117976,
+        "sender_full_name": "Rishi Gupta",
+        "timestamp": 1483738406
+    }
+]

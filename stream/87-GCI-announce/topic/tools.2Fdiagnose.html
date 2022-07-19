@@ -1,0 +1,331 @@
+<html>
+<head><meta charset="utf-8"><title>tools/diagnose · GCI announce · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/index.html">GCI announce</a></h2>
+<h3>Topic: <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html">tools/diagnose</a></h3>
+
+<hr>
+
+<base href="chat.zulip.org">
+
+<head><link href="https://refeed.github.io/zarchive-refeed/style.css" rel="stylesheet"></head>
+
+<a name="115086"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115086" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115086">(Jan 04 2017 at 15:52)</a>:</h4>
+<p>If you fetch the latest copy of master, you can now run a tool called <code>./tools/diagnose</code> to get basic info about your dev environment.  Please try it out!</p>
+
+
+
+<a name="115098"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115098" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Robert Hönig <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115098">(Jan 04 2017 at 16:06)</a>:</h4>
+<p>Running <code>./tools/idagnose</code> throws an error for me:</p>
+<div class="codehilite"><pre><span></span>(zulip-venv) ~/zulip (master)$ ./tools/diagnose
+Python 2.7.12
+/home/zulipdev/zulip
+Linux-4.4.0-47-generic-x86_64-with-Ubuntu-16.04-xenial
+Django version: 1.10.4
+latest version provisioned: 3.2
+desired version: 3.2
+node version:
+v6.6.0
+Traceback (most recent call last):
+  File &quot;./tools/diagnose&quot;, line 76, in &lt;module&gt;
+    @run
+  File &quot;./tools/diagnose&quot;, line 21, in run
+    rc = check_func()
+  File &quot;./tools/diagnose&quot;, line 84, in test_models
+    print(&#39;Num realms: &#39;, Realm.objects.count())
+  File &quot;/srv/zulip-venv/local/lib/python2.7/site-packages/django/db/models/manager.py&quot;, line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File &quot;/srv/zulip-venv/local/lib/python2.7/site-packages/django/db/models/query.py&quot;, line 369, in count
+    return self.query.get_count(using=self.db)
+  File &quot;/srv/zulip-venv/local/lib/python2.7/site-packages/django/db/models/sql/query.py&quot;, line 476, in get_count
+    number = obj.get_aggregation(using, [&#39;__count&#39;])[&#39;__count&#39;]
+  File &quot;/srv/zulip-venv/local/lib/python2.7/site-packages/django/db/models/sql/query.py&quot;, line 457, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File &quot;/srv/zulip-venv/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py&quot;, line 835, in execute_sql
+    cursor.execute(sql, params)
+  File &quot;/srv/zulip-venv/local/lib/python2.7/site-packages/django/db/backends/utils.py&quot;, line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File &quot;/srv/zulip-venv/local/lib/python2.7/site-packages/django/db/backends/utils.py&quot;, line 64, in execute
+    return self.cursor.execute(sql, params)
+  File &quot;/srv/zulip-venv/local/lib/python2.7/site-packages/django/db/utils.py&quot;, line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File &quot;/srv/zulip-venv/local/lib/python2.7/site-packages/django/db/backends/utils.py&quot;, line 64, in execute
+    return self.cursor.execute(sql, params)
+  File &quot;./zerver/lib/db.py&quot;, line 32, in execute
+    return wrapper_execute(self, super(TimeTrackingCursor, self).execute, query, vars)
+  File &quot;./zerver/lib/db.py&quot;, line 19, in wrapper_execute
+    return action(sql, params)
+django.db.utils.ProgrammingError: relation &quot;zerver_realm&quot; does not exist
+LINE 1: SELECT COUNT(*) AS &quot;__count&quot; FROM &quot;zerver_realm&quot;
+                                          ^
+</pre></div>
+
+
+
+<a name="115099"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115099" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tommy Ip <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115099">(Jan 04 2017 at 16:08)</a>:</h4>
+<p>I got this error:</p>
+<div class="codehilite"><pre><span></span>Django version: 1.10.4
+latest version provisioned: 3.2
+desired version: 3.2
+node version:
+v6.6.0
+... Traceback
+django.db.utils.OperationalError: FATAL:  password authentication failed for user &quot;zulip_test&quot;
+FATAL:  password authentication failed for user &quot;zulip_test&quot;
+</pre></div>
+
+
+
+<a name="115100"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115100" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Yago González <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115100">(Jan 04 2017 at 16:10)</a>:</h4>
+<p>Diagnosing the diagnose script, hahahahaha</p>
+
+
+
+<a name="115112"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115112" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115112">(Jan 04 2017 at 16:22)</a>:</h4>
+<p>looking into Robert's error first</p>
+
+
+
+<a name="115115"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115115" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115115">(Jan 04 2017 at 16:23)</a>:</h4>
+<p><span class="user-mention" data-user-email="robhoenig@gmail.com">@Robert Hönig</span> <span class="user-mention" data-user-email="hkmp7tommy@gmail.com">@Tommy Ip</span> I assume you're both running in your normal VM environments?</p>
+
+
+
+<a name="115116"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115116" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tommy Ip <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115116">(Jan 04 2017 at 16:23)</a>:</h4>
+<p>Yeah in vagrant (locally)</p>
+
+
+
+<a name="115118"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115118" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Robert Hönig <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115118">(Jan 04 2017 at 16:23)</a>:</h4>
+<p>Yup, I am using the ocean droplet.</p>
+
+
+
+<a name="115120"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115120" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115120">(Jan 04 2017 at 16:26)</a>:</h4>
+<p>It's interesting that you're both getting Django errors.</p>
+
+
+
+<a name="115126"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115126" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115126">(Jan 04 2017 at 16:28)</a>:</h4>
+<p><span class="user-mention" data-user-email="robhoenig@gmail.com">@Robert Hönig</span> <span class="user-mention" data-user-email="hkmp7tommy@gmail.com">@Tommy Ip</span> Can you try </p>
+<div class="codehilite"><pre><span></span>./tools/do-destroy-rebuild-database &amp;&amp; ./tools/diagnose
+</pre></div>
+
+
+
+<a name="115127"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115127" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Robert Hönig <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115127">(Jan 04 2017 at 16:29)</a>:</h4>
+<p>Just ran it, the exact same error is thrown for me.</p>
+
+
+
+<a name="115128"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115128" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tommy Ip <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115128">(Jan 04 2017 at 16:29)</a>:</h4>
+<p>Same error</p>
+
+
+
+<a name="115129"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115129" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115129">(Jan 04 2017 at 16:30)</a>:</h4>
+<p>Hmmm...let me try something else...</p>
+
+
+
+<a name="115131"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115131" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115131">(Jan 04 2017 at 16:31)</a>:</h4>
+<div class="codehilite"><pre><span></span>(zulip-venv)vagrant@vagrant-base-trusty-amd64:/srv/zulip$ ./manage.py dbshell
+psql (9.3.15)
+SSL connection (cipher: DHE-RSA-AES256-GCM-SHA384, bits: 256)
+Type &quot;help&quot; for help.
+
+zulip=&gt; select * from zerver_realm limit 1;
+</pre></div>
+
+
+
+<a name="115132"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115132" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115132">(Jan 04 2017 at 16:32)</a>:</h4>
+<p><span class="user-mention" data-user-email="yagogonzalezg@gmail.com">@Yago González</span> Do you have a moment to try this script out?</p>
+
+
+
+<a name="115133"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115133" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Yago González <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115133">(Jan 04 2017 at 16:32)</a>:</h4>
+<p>I already did, it works fine for me</p>
+
+
+
+<a name="115134"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115134" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Yago González <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115134">(Jan 04 2017 at 16:32)</a>:</h4>
+<p>Sorry, should have reported it, hehe</p>
+
+
+
+<a name="115135"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115135" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Yago González <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115135">(Jan 04 2017 at 16:33)</a>:</h4>
+<div class="codehilite"><pre><span></span>(zulip-venv) ~/zulip (master)$ ./tools/diagnose 
+Python 2.7.12
+/home/zulipdev/zulip
+Linux-4.4.0-47-generic-x86_64-with-Ubuntu-16.04-xenial
+Django version: 1.10.4
+latest version provisioned: 3.2
+desired version: 3.2
+node version:
+v6.6.0
+Num realms:  3
+Num users:  21
+py2_dev.txt venv sha:  95248d22260eb86f80ab429290a52191bfa39f58
+py3_dev.txt venv sha:  f9b93820bcb446cc32a9b1aaeabcb4463f8f06f3
+
+Testing whether migrations are consistent with models
+No changes detected
+Success!  Migrations are consistent with models.
+</pre></div>
+
+
+
+<a name="115136"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115136" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115136">(Jan 04 2017 at 16:33)</a>:</h4>
+<p><span class="user-mention" data-user-email="robhoenig@gmail.com">@Robert Hönig</span> <span class="user-mention" data-user-email="hkmp7tommy@gmail.com">@Tommy Ip</span> Are you able to get in the dbshell, as I showed above?</p>
+
+
+
+<a name="115137"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115137" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tommy Ip <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115137">(Jan 04 2017 at 16:34)</a>:</h4>
+<p>yes</p>
+
+
+
+<a name="115138"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115138" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Yago González <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115138">(Jan 04 2017 at 16:34)</a>:</h4>
+<p>Let me know if I can do anything to help!</p>
+
+
+
+<a name="115139"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115139" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Robert Hönig <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115139">(Jan 04 2017 at 16:34)</a>:</h4>
+<p>Yes, it returns a normal SQL row for me</p>
+
+
+
+<a name="115141"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115141" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115141">(Jan 04 2017 at 16:35)</a>:</h4>
+<p>My guess is that these lines of code are somehow brittle and only work for some configurations:</p>
+<div class="codehilite"><pre><span></span> <span class="mi">79</span>     <span class="n">settings_module</span> <span class="o">=</span> <span class="s2">&quot;zproject.test_settings&quot;</span>
+ <span class="mi">80</span>     <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;DJANGO_SETTINGS_MODULE&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">settings_module</span>
+ <span class="mi">81</span>     <span class="kn">import</span> <span class="nn">django</span>
+ <span class="mi">82</span>     <span class="n">django</span><span class="o">.</span><span class="n">setup</span><span class="p">()</span>
+</pre></div>
+
+
+
+<a name="115150"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115150" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115150">(Jan 04 2017 at 16:43)</a>:</h4>
+<p>Robert/Tommy, does it work if you say <code>zproject.settings</code> instead of <code>zproject.test_settings</code>?</p>
+
+
+
+<a name="115151"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115151" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115151">(Jan 04 2017 at 16:43)</a>:</h4>
+<p>(on line 79)</p>
+
+
+
+<a name="115153"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115153" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Robert Hönig <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115153">(Jan 04 2017 at 16:45)</a>:</h4>
+<p>Ha, that's it! Worked <span class="user-mention" data-user-email="showell30@yahoo.com">@Steve Howell</span> </p>
+
+
+
+<a name="115154"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115154" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Robert Hönig <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115154">(Jan 04 2017 at 16:46)</a>:</h4>
+<div class="codehilite"><pre><span></span>Python 2.7.12
+/home/zulipdev/zulip
+Linux-4.4.0-47-generic-x86_64-with-Ubuntu-16.04-xenial
+Django version: 1.10.4
+latest version provisioned: 3.2
+desired version: 3.2
+node version:
+v6.6.0
+Num realms:  1
+Num users:  20
+py2_dev.txt venv sha:  95248d22260eb86f80ab429290a52191bfa39f58
+py3_dev.txt venv sha:  f9b93820bcb446cc32a9b1aaeabcb4463f8f06f3
+
+Testing whether migrations are consistent with models
+No changes detected
+Success!  Migrations are consistent with models.
+</pre></div>
+
+
+
+<a name="115155"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115155" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115155">(Jan 04 2017 at 16:48)</a>:</h4>
+<p>Cool, I'll push that change.  I'm still curious why the test_settings fail.</p>
+
+
+
+<a name="115156"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115156" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Robert Hönig <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115156">(Jan 04 2017 at 16:48)</a>:</h4>
+<p>Is <code>test_settings</code> an experimental <code>test</code> module?</p>
+
+
+
+<a name="115157"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115157" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Yago González <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115157">(Jan 04 2017 at 16:49)</a>:</h4>
+<p>Please, let us know once you're done. I'll try again to see if it still works</p>
+
+
+
+<a name="115158"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115158" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tommy Ip <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115158">(Jan 04 2017 at 16:49)</a>:</h4>
+<p>Yeah it works</p>
+
+
+
+<a name="115160"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115160" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115160">(Jan 04 2017 at 16:50)</a>:</h4>
+<p>test_settings is for running the automated tests</p>
+
+
+
+<a name="115174"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115174" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Howell (showell) <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115174">(Jan 04 2017 at 16:54)</a>:</h4>
+<p><span class="user-mention" data-user-email="tabbott@zulipchat.com">@Tim Abbott</span> Do you have any theory on why using zproject.test_settings would fail only for certain users in this code?</p>
+<div class="codehilite"><pre><span></span> <span class="mi">77</span> <span class="k">def</span> <span class="nf">test_models</span><span class="p">():</span>
+ <span class="mi">78</span>     <span class="c1"># type: () -&gt; bool</span>
+ <span class="mi">79</span>     <span class="n">settings_module</span> <span class="o">=</span> <span class="s2">&quot;zproject.settings&quot;</span>
+ <span class="mi">80</span>     <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;DJANGO_SETTINGS_MODULE&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">settings_module</span>
+ <span class="mi">81</span>     <span class="kn">import</span> <span class="nn">django</span>
+ <span class="mi">82</span>     <span class="n">django</span><span class="o">.</span><span class="n">setup</span><span class="p">()</span>
+ <span class="mi">83</span>     <span class="kn">from</span> <span class="nn">zerver.models</span> <span class="kn">import</span> <span class="n">UserProfile</span><span class="p">,</span> <span class="n">Realm</span>
+ <span class="mi">84</span>     <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Num realms: &#39;</span><span class="p">,</span> <span class="n">Realm</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">count</span><span class="p">())</span>
+ <span class="mi">85</span>     <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Num users: &#39;</span><span class="p">,</span> <span class="n">UserProfile</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">count</span><span class="p">())</span>
+ <span class="mi">86</span>     <span class="k">return</span> <span class="bp">True</span>
+</pre></div>
+
+
+
+<a name="115250"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115250" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Abbott <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115250">(Jan 04 2017 at 17:10)</a>:</h4>
+<p>hmm</p>
+
+
+
+<a name="115253"></a>
+<h4><a href="chat.zulip.org#narrow/stream/87-GCI%20announce/topic/tools/diagnose/near/115253" class="zl"><img src="https://refeed.github.io/zarchive-refeed/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Abbott <a href="https://refeed.github.io/zarchive-refeed/stream/87-GCI-announce/topic/tools.2Fdiagnose.html#115253">(Jan 04 2017 at 17:10)</a>:</h4>
+<p>I don't see a good explanation for why there'd be a problem with using <code>test_settings</code> there</p>
+
+
+
+<hr><p>Last updated: Jul 19 2022 at 08:22 UTC</p>
+</html>

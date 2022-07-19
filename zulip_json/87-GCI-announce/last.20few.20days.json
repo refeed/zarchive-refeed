@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Hey folks, a couple of announcements:</p>\n<ul>\n<li>Because we're gearing up to do a new release next week, we will probably be leaving many PRs unmerged over the next week or so, to minimize risk of introducing new bugs.   Generally we will not merge new features or otherwise risky changes, with increasing levels of caution over the course of the week.  We'll still be merging bug fixes aggressively, and we will still be aggressively merging user docs and bots (because they are not yet part of our published core feature set for this release).  We will still be approving GCI tasks for PRs regardless of whether we merge them.</li>\n<li>For the GCI contest, you don't need to rush to complete a lot of GCI tasks in the remaining days before the end of the contest. The GCI task count is primarily relevant for being in the top 10 by GCI tasks, and we don't anticipate that list changing materially over the next few days. We will be choosing winners based on overall contributions, and for that purpose, things like helping with the release, finding and reporting bugs, and helping with code review are at least as important as completing additional GCI tasks.</li>\n</ul>",
+        "id": 122858,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1484098737
+    },
+    {
+        "content": "<p>I guess another thought is that to the extent that we can get the user docs into a nice state (e.g. adding the missing docs, doing the review tasks etc., the better, since right now the main place we are tracking which things need doing is in the GCI tasks).  It looks like there's only about 20 such tasks left.</p>",
+        "id": 122921,
+        "sender_full_name": "Tim Abbott",
+        "timestamp": 1484104722
+    },
+    {
+        "content": "<p>I'm trying help out with the docs the best I can, but studying for finals are limiting the amount of time I get to work on GCI. So yeah, it'd be nice to get some help with the docs</p>",
+        "id": 122923,
+        "sender_full_name": "Cynthia Lin",
+        "timestamp": 1484104784
+    },
+    {
+        "content": "<p>I'd love to help with the docs! How can I find which ones are currently needed? </p>",
+        "id": 122924,
+        "sender_full_name": "Patrick Grave",
+        "timestamp": 1484104811
+    },
+    {
+        "content": "<p><a href=\"https://codein.withgoogle.com/tasks/?sp-is_beginner=False&amp;sp-search=user%20guides\" target=\"_blank\" title=\"https://codein.withgoogle.com/tasks/?sp-is_beginner=False&amp;sp-search=user%20guides\">https://codein.withgoogle.com/tasks/?sp-is_beginner=False&amp;sp-search=user%20guides</a></p>",
+        "id": 122925,
+        "sender_full_name": "Cynthia Lin",
+        "timestamp": 1484104833
+    },
+    {
+        "content": "<p>Thanks <span class=\"user-mention\" data-user-email=\"cynthialin1004@gmail.com\">@Cynthia Lin</span> I'll get to work! <img alt=\":smiley_cat:\" class=\"emoji\" src=\"/static/generated/emoji/images/emoji/smiley_cat.png\" title=\":smiley_cat:\"> </p>",
+        "id": 122926,
+        "sender_full_name": "Patrick Grave",
+        "timestamp": 1484104854
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-email=\"p.grave@icloud.com\">@JefftheBest</span> I too can help for sometime</p>",
+        "id": 123030,
+        "sender_full_name": "Anirudh Jain",
+        "timestamp": 1484124660
+    }
+]
